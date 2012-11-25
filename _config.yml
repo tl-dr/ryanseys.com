@@ -6,3 +6,5 @@ future: false
 url: http://ryanseys.com
 exclude:
 - README.md
+- CNAME
+- params.json
