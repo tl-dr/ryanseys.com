@@ -6,6 +6,7 @@ root: true
 
 {% include welcome_root.html %}
 <hr />
+
 {% assign projects = site.tags.project %}
 {% for project in projects %}
   <a name="{{ project.name }}" href="{{ project.url }}"><h3>Project: {{ project.title }}</h3></a>
