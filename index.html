@@ -14,18 +14,13 @@ root: true
         {% include sidebar.html %}
       </header>
       <section>
-        <h3>
-          Welcome!
-        </h3>
-        <p>
-          Hi! I am a Software Engineering undergraduate studying at Carleton University in Ottawa, ON, Canada. This site will act as a portal into some of the better projects I have worked on, and their stories. Please feel free to fork any of my Github projects! I love pull requests :)
-        </p>
+        {% include welcome_root.html %}
         <hr />
         {% assign projects = site.tags.project %}
         {% for project in projects %}
-          <h3>Project: {{ project.title }}</h3>
+          <a name="{{ project.name }}" href="#{{ project.name }}"><h3>Project: {{ project.title }}</h3></a>
           {{ project.content }}
-          <hr />
+          {% if project != projects.last %}<hr />{% endif %}
         {% endfor %}
       </section>
       <footer>

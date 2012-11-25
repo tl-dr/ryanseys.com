@@ -23,8 +23,8 @@
   </a>
 </p>
 <h2>Projects</h2>
-<div class="highlight"><pre><code><span class="nv">$</span> cd <a href="../#nextotrain" title="Next OTrain">next-otrain</a>
-<span class="nv">$</span> cd <a href="../#bbb-html5" title="BigBlueButton HTML5 Client">bbb-html5-client</a>
-<span class="nv">$</span> cd <a href="../#campusgrids" title="Campusgrids">campusgrids</a></code></pre></div>
+{% assign projects = site.tags.project %}
+<div class="highlight"><pre><code>{% for project in projects %}<span class="nv">$</span> cd <a href="/#{{project.name}}" title="{{project.title}}">{{project.name}}</a>{% if project != projects.last %}<br />{% endif %}{% endfor %}
+</pre></code></div>
 <h2>Blog</h2>
-<div class="highlight"><pre><code><span class="nv">$</span> cd <a href="/blog">blog/</a></code></pre></div>
+<div class="highlight"><pre><code><span class="nv">$</span> cd <a href="/blog">blog</a></code></pre></div>

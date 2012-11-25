@@ -2,6 +2,7 @@
 layout: post
 title: Next OTrain
 tags: project
+name: next-otrain
 ---
 
 Ottawa, Ontario is home to the OTrain, a lightrail train that travels between 5 stops, the middle of which is my school, Carleton University. As a daily OTrain commuter, I created <a href="http://nextotrain.com" target="_blank">a webapp</a> for telling me when the next one would arrive at each station.

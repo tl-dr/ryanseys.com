@@ -2,6 +2,7 @@
 layout: post
 title: Campusgrids
 tags: project
+name: campusgrids
 ---
 
 <a href="http://campusgrids.com" target="_blank">Campusgrids</a> is a website created for Carleton University students by students for finding clubs and events on campus. It's a great way to discover new activities and promote your own directly to the Carleton community.
