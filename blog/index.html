@@ -1,4 +1,8 @@
-<!doctype html>
+---
+layout: default
+title: Ryan Seys
+---
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -48,15 +52,11 @@ $ cd <a href="../#campusgrids" title="Campusgrids">campusgrids</a></code></pre>
         <pre><code>$ cd <a href="#blog" title="Latest Blog Posts">blog/recent-posts</a></code></pre>
       </header>
       <section>
-        <a name="blog" href="#blog">
-          <h3>
-            Blog!
-          </h3>
-        </a>
-        <p>
-          Hi! Welcome to the blog portion of my website. Hope you stay awhile! :)
-        </p>
-        <hr />
+        {% assign blogposts = site.tags.blogpost %}
+        {% for post in blogposts %}
+          {{ post.content }}
+          <hr />
+        {% endfor %}
       </section>
       <footer>
         <p><small>That is all.</small></p>

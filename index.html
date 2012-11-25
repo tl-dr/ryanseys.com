@@ -1,4 +1,7 @@
-<!doctype html>
+---
+layout: default
+title: Ryan Seys
+---
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,61 +57,12 @@ $ cd <a href="#campusgrids" title="Campusgrids">campusgrids</a></code></pre>
         <p>
           Hi! I am a Software Engineering undergraduate studying at Carleton University in Ottawa, ON, Canada. This site will act as a portal into some of the better projects I have worked on, and their stories. Please feel free to fork any of my Github projects! I love pull requests :)
         </p>
-
         <hr />
-
-        <a name="nextotrain" href="#nextotrain">
-          <h3>
-            Project: Next OTrain
-          </h3>
-        </a>
-        <p>
-          Ottawa, Ontario is home to the OTrain, a lightrail train that travels between 5 stops, the middle of which is my school, Carleton University. As a daily OTrain commuter, I created <a href="http://nextotrain.com" target="_blank">a webapp</a> for telling me when the next one would arrive at each station.
-        </p>
-        <img title="Next OTrain" src="img/next-otrain.png" />
-        <p>
-          ...and if a screenshot isn't enough, you can see it live at:
-        </p>
-        <pre>
-<code>$ open <a href="http://nextotrain.com" target="_blank" title="Next OTrain">http://nextotrain.com</a>
-</code></pre>
-
-        <hr />
-
-        <a name="bbb-html5" href="#bbb-html5">
-          <h3>
-            Project: BigBlueButton HTML5 Client
-          </h3>
-        </a>
-        <p>
-          In the summer of 2012, I had the pleasure of working at Blindside Networks, an Ottawa-based startup driving the BigBlueButton project. <a href="http://www.bigbluebutton.org" target="_blank">BigBlueButton</a> is an open-source web conferencing system designed for distance education. It helps educators and students connect and communicate using voice &amp; video, whiteboard/slides, and text chat, all real-time in the browser.
-        </p>
-        <p>
-          During my stay, I worked on a brand spankin' new client for them in HTML5 to replace their current Flash implementation. Created from the ground up using Node.js, Socket.io, Redis, and lots of javascript I built out the existing features of their client into a brand new, HTML5 version (yes, it works on your phone)!
-        </p>
-        <img title="BigBlueButton HTML5 Demo" src="img/bbb-html5.png" />
-        <p>
-          Features include meeting rooms with meeting-wide chat, custom uploadable slides with whiteboard functionality (lines/shapes/text annotations, clears/undos, pan/zoom) with real-time syncronization between every member of the meeting simultaneously, all using standard-compliant HTML5 and JavaScript.
-        </p>
-
-        <hr />
-
-        <a name="campusgrids" href="#campusgrids">
-          <h3>
-            Project: Campusgrids
-          </h3>
-        </a>
-        <p>
-          <a href="http://campusgrids.com" target="_blank">
-            Campusgrids
-          </a>
-          is a website created for Carleton University students by students for finding clubs and events on campus. It's a great way to discover new activities and promote your own directly to the Carleton community.
-        </p>
-        <img title="Campusgrids" src="img/campusgrids.png" />
-        <p>
-          As a member of the Campusgrids development team I have built out various features of the website, fixed many bugs, and advocated for the use of the site (obviously!), resulting in the spawn of new clubs at campus which otherwise may have more trouble reaching the Carleton community as a whole.
-        </p>
-        <hr />
+        {% assign projects = site.tags.project %}
+        {% for project in projects %}
+          {{ project.content }}
+          <hr />
+        {% endfor %}
       </section>
       <footer>
         <p><small>That is all.</small></p>

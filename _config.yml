@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+auto: true
+permalink: /posts/:title
+future: false
+exclude:
+- README.md
