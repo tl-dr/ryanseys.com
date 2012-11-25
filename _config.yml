@@ -3,5 +3,6 @@ pygments: true
 auto: true
 permalink: /posts/:title
 future: false
+url: http://ryanseys.com
 exclude:
 - README.md
