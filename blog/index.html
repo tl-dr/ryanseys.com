@@ -2,27 +2,13 @@
 layout: default
 title: Ryan Seys - Blog
 ---
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        {% include sidebar.html %}
-      </header>
-      <section>
-        {% assign blogposts = site.tags.blogpost %}
-        {% for post in blogposts %}
-          <h3>{{ post.title }}</h3>
-          {{ post.content }}
-          <hr />
-        {% endfor %}
-      </section>
-      <footer>
-        {% include footer.html %}
-      </footer>
-    </div>
-    <script src="js/scale.fix.js"></script>
-  </body>
-</html>
+{% assign blogposts = site.tags.blog %}
+{% for post in blogposts %}
+  <a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+  </a>
+  {{ post.content }}
+  {% if post != blogposts.last %}
+    <hr />
+  {% endif %}
+{% endfor %}

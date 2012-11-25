@@ -4,29 +4,11 @@ title: Ryan Seys
 root: true
 ---
 
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        {% include sidebar.html %}
-      </header>
-      <section>
-        {% include welcome_root.html %}
-        <hr />
-        {% assign projects = site.tags.project %}
-        {% for project in projects %}
-          <a name="{{ project.name }}" href="#{{ project.name }}"><h3>Project: {{ project.title }}</h3></a>
-          {{ project.content }}
-          {% if project != projects.last %}<hr />{% endif %}
-        {% endfor %}
-      </section>
-      <footer>
-        {% include footer.html %}
-      </footer>
-    </div>
-    <script src="js/scale.fix.js"></script>
-  </body>
-</html>
+{% include welcome_root.html %}
+<hr />
+{% assign projects = site.tags.project %}
+{% for project in projects %}
+  <a name="{{ project.name }}" href="{{ project.url }}"><h3>Project: {{ project.title }}</h3></a>
+  {{ project.content }}
+  {% if project != projects.last %}<hr />{% endif %}
+{% endfor %}

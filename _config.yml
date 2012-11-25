@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 auto: true
-permalink: /posts/:title
+permalink: pretty
 future: false
 url: http://ryanseys.com
 exclude:

@@ -2,6 +2,7 @@
 layout: post
 title: Campusgrids
 tags: project
+category: project
 name: campusgrids
 ---
 

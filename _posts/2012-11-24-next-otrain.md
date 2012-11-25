@@ -2,6 +2,7 @@
 layout: post
 title: Next OTrain
 tags: project
+category: project
 name: next-otrain
 ---
 

@@ -1,1 +1,19 @@
-{{ content }}
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% include sidebar.html %}
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+    <script src="js/scale.fix.js"></script>
+  </body>
+</html>
