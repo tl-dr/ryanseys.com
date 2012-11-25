@@ -5,6 +5,7 @@ title: Ryan Seys - Blog
 
 {% assign blogposts = site.tags.blog %}
 {% for post in blogposts %}
+  <small style="float:right; margin-top:5px;">{{ post.date | date_to_string }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
