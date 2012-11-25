@@ -2,7 +2,7 @@
 layout: default
 root: true
 ---
-
+<small style="float:right; margin-top:5px;">{{ page.date | date_to_string }}</small>
 <h3> {{ page.title }} </h3>
 {{ content }}
 {% include comments.html %}
