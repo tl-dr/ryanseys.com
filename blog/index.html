@@ -5,11 +5,19 @@ title: Ryan Seys - Blog
 
 {% assign blogposts = site.tags.blog %}
 {% for post in blogposts %}
-  <small style="float:right; margin-top:5px;">{{ post.date | date_to_string }}</small>
+  <small style="float:right; margin-top:5px;">{{ post.date | date:'%a %d %b %Y' }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
-  {{ post.content }}
+  {% assign truncated_post = post.content | split:"<!-- preview end -->" | first %}
+  {% if truncated_post != post.content %}
+  {{ truncated_post | append:".."}}
+  <a href="{{ post.url }}">
+    <p>See full post.</p>
+  </a>
+  {% else %}
+   {{ truncated_post }}
+  {% endif %}
   {% if post != blogposts.last %}
     <hr />
   {% endif %}
