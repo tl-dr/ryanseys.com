@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Next OTrain
-categories: project
+categories: projects
 name: next-otrain
 ---
 

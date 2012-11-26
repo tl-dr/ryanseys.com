@@ -2,6 +2,7 @@
 layout: post
 title: Using Jekyll with Github Pages
 categories: blog
+name: using-jekyll
 ---
 
 In the last couple days, I fired up this personal website for myself to showcase some of the projects I have been working on as well as to get even MORE experience developing for the web. I wanted something simple and static, nothing too fancy, something I could understand inside and out just in case I ever needed to make a modification. I wanted something that I could use to create content when I needed and to get things up fast! Gone are the days writing raw HTML.<strike>{% highlight html %}<p>Hello, <a href="http://jekyllrb.com/">Jekyll.</a></p>{% endhighlight %}</strike>

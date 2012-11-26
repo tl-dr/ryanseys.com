@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Ryan Seys | Projects
-categories: project
+categories: projects
 ---
 
-{% assign projects = site.categories.project %}
+{% assign projects = site.categories.projects %}
 {% for project in projects %}
   <a name="{{ project.name }}" href="{{ project.url }}"><h3>Project: {{ project.title }}</h3></a>
   {{ project.content }}
