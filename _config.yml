@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 auto: true
-permalink: pretty
+permalink: /:categories/:title
 url: http://ryanseys.com
 exclude:
 - README.md

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Ryan Seys | Blog
+categories: blog
 ---
 
-{% assign blogposts = site.tags.blog %}
+{% assign blogposts = site.categories.blog %}
 {% for post in blogposts %}
   <small style="float:right; margin-top:5px;">{{ post.date | date:'%a %d %b %Y' }}</small>
   <a href="{{ post.url }}">

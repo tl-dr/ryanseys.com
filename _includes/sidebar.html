@@ -24,10 +24,8 @@
 </p>
 <h2>Projects</h2>
 <div class="highlight">
-{% assign projects = site.tags.project %}
-<pre>
-<code><span class="nv">$</span> cd <a href="/projects">projects</a></code>
-{% if page.section == "projects" %}{% for project in projects %}     {% if project == projects.last %}└{% else %}├{% endif %}──── <span class="nv"></span><a href="#{{project.name}}" title="{{project.title}}">{{project.name}}</a>{% if project != projects.last %}<br />{% endif %}{% endfor %}{% endif %}</pre>
+{% assign projects = site.categories.project %}
+<pre>{% include sidebar_projects.html %}</pre>
 </div>
 <h2>Blog</h2>
 <div class="highlight"><pre><code><span class="nv">$</span> cd <a href="/blog">blog</a></code></pre></div>

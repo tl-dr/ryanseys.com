@@ -2,7 +2,7 @@
 layout: default
 root: true
 ---
-{% if page.category == "blog" %} <small style="float:right; margin-top:5px;">{{ page.date | date:'%a %d %b %Y' }}</small> {% endif %}
+{% if page.categories == "blog" %} <small style="float:right; margin-top:5px;">{{ page.date | date:'%a %d %b %Y' }}</small> {% endif %}
 <h3>{{ page.title }}</h3>
 {{ content }}
 <hr />
