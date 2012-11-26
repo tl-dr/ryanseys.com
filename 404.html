@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <style>
 body {
@@ -14,11 +15,31 @@ body {
 }
 </style>
 
-<body style="text-align:center;">
+<script>
 
+var t = 5;
+
+function load() {
+  setTimeout(function() {
+    window.location = "http://ryanseys.com";
+  }, 5000);
+  countdown();
+}
+
+function countdown() {
+  document.getElementById("attempt").innerHTML = "Attempting to redirect in " + t + "...";
+  if(t != 0) {
+    setTimeout('countdown(t-1)', 1000);
+  }
+  t-=1;
+}
+
+</script>
+
+<body style="text-align:center;" onload="load()">
 <pre>404! FILE NOT FOUND!</pre>
 <img src="/img/404.gif" />
+<p id="attempt"></p>
 </body>
-
 </html>
 
