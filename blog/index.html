@@ -9,7 +9,7 @@ title: Ryan Seys - Blog
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
-  {% assign truncated_post = post.content | split:"<!-- preview end -->" | first %}
+  {% assign truncated_post = post.content | split:"<!-- truncate_here -->" | first %}
   {% if truncated_post != post.content %}
   {{ truncated_post | append:".."}}
   <a href="{{ post.url }}">
