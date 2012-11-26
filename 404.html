@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <style>
 body {
@@ -16,8 +16,7 @@ body {
 </style>
 
 <script>
-
-var t = 5;
+var t = 5; //redirect in this many seconds
 
 function load() {
   setTimeout(function() {
@@ -33,12 +32,11 @@ function countdown() {
   }
   t-=1;
 }
-
 </script>
 
 <body style="text-align:center;" onload="load()">
-<pre>404! FILE NOT FOUND!</pre>
-<img src="/img/404.gif" />
+<code style="margin-bottom:5px">404! FILE NOT FOUND! </code>
+<img src="img/404.gif" />
 <p id="attempt"></p>
 </body>
 </html>
