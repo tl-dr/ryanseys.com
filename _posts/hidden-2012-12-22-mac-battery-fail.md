@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Macbook Battery Failure
-categories: blog
+categories: blog hidden
 name: mac-battery-fail
 ---
 
