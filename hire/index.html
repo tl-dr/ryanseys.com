@@ -3,11 +3,12 @@ layout: default
 title: Ryan Seys | Hire me
 categories: hire
 ---
+<script src="../js/jquery-1.8.3.min.js"></script>
 
 {% assign pages = site.categories.hire %}
 {% for page in pages %}
 {% if page.name == "resume" %}
-  <div id="{{ page.name }}">
+  <div id="{{ page.name }}" style="display:none;">
     <link rel="stylesheet" href="../css/pygment_trac.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/styles.css">
