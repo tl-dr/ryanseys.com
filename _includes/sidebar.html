@@ -24,11 +24,13 @@
 </p>
 <h2>Projects</h2>
 <div class="highlight">
-  {% assign projects = site.categories.projects %}
   <pre>{% include sidebar_projects.html %}</pre>
 </div>
 <h2>Blog</h2>
 <div class="highlight">
-  {% assign blogposts = site.categories.blog and !site.categories.hidden %}
   <pre>{% include sidebar_blog.html %}</pre>
+</div>
+<h2>Hire me</h2>
+<div class="highlight">
+  <pre>{% include sidebar_hire.html %}</pre>
 </div>

@@ -1,0 +1,20 @@
+---
+layout: default
+title: Ryan Seys | Hire me
+categories: hire
+---
+
+{% assign pages = site.categories.hire %}
+{% for page in pages %}
+{% if page.name == "resume" %}
+  <div id="{{ page.name }}">
+    <link rel="stylesheet" href="../css/pygment_trac.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/resume.css">
+    {{ page.content }}
+  </div>
+{% else %}
+{{ page.content }}
+{% endif %}
+{% endfor %}

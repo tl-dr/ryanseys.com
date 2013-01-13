@@ -3,6 +3,7 @@ pygments: true
 auto: true
 permalink: /:categories/:title
 url: http://ryanseys.com
+markdown: maruku
 exclude:
 - README.md
 - CNAME

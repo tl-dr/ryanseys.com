@@ -1,0 +1,76 @@
+hr {
+  margin-top:-14px;
+  margin-bottom:2px;
+}
+th {
+  font-size:11.0pt;
+  font-family:Calibri;
+  font-weight: bold;
+}
+h4 {
+  font-variant:small-caps;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  color: black;
+}
+#titlename {
+  text-align:center;
+  margin-top:-30px;
+  margin-left:90px;
+  font-variant:small-caps;
+}
+tr th:nth-child(3) {  
+  text-align: right;
+}
+tr th:nth-child(2) {  
+  text-align: left;
+}
+tr th:nth-child(1) {  
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  width:250px;
+}
+
+th {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: none;
+  font-family: Calibri;
+  color: black;
+}
+
+.jobrole {
+  margin-top: 2px;
+  margin-bottom: -6px;
+  margin-left: 8px;
+  color: black;
+}
+ul {
+  padding-top: 6px;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+}
+ul li {
+  margin-left: -15px;
+  margin-top: -2px;
+  font-size: 10pt;
+  margin-bottom: 0px;
+}
+
+.nobullets {
+  list-style:none;
+  list-style-position:outside;
+  padding-left:20;
+  margin-left:0;
+}
+
+table {
+  margin-bottom:-10px;
+}
+
+p {
+  margin-bottom: 4px;
+
+}
