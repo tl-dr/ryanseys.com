@@ -21,15 +21,17 @@ h4 {
 }
 tr th:nth-child(3) {  
   text-align: right;
+  width:40%;
 }
 tr th:nth-child(2) {  
-  text-align: left;
+  text-align: center;
+  width:20%;
 }
 tr th:nth-child(1) {  
   text-align: left;
   margin-left: 0px;
   padding-left: 0px;
-  width:250px;
+  width:40%;
 }
 
 th {
@@ -72,5 +74,4 @@ table {
 
 p {
   margin-bottom: 4px;
-
 }
