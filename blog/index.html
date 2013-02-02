@@ -14,7 +14,7 @@ categories: blog
   {% if truncated_post != post.content %}
   {{ truncated_post | append:".."}}
   <a href="{{ post.url }}">
-    <p>See full post.</p>
+    <p>Continue reading &rarr;</p>
   </a>
   {% else %}
    {{ truncated_post }}
