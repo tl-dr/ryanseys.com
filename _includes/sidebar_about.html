@@ -1,0 +1,3 @@
+{% assign pages = site.categories.about %}
+<code><span class="nv">$</span> cd <a href="/about">about</a></code>
+{% for page in pages %}     {% if page == pages.last %}└{% else %}├{% endif %}── <span class="nv"></span><a href="{{page.url}}" title="{{page.title}}">{{page.name}}</a>{% if page != pages.last %}<br />{% endif %}{% endfor %}

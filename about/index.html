@@ -1,0 +1,14 @@
+---
+layout: default
+title: Ryan Seys | About
+categories: about
+---
+
+{% assign pages = site.categories.about %}
+{% for page in pages %}
+  {% if page.name != "resume" %}
+    <a name="{{ page.name }}" href="{{ page.url }}"><h3>{{ page.title }}</h3></a>
+    {{ page.content }}
+    {% if page != pages.last %}<hr />{% endif %}
+  {% endif %}
+{% endfor %}
