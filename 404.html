@@ -16,12 +16,12 @@
   </style>
 
   <script>
-  var t = 3; //redirect in this many seconds
+  var t = 5; //redirect in this many seconds
 
   function load() {
     setTimeout(function() {
       window.location = "http://ryanseys.com";
-    }, 5000);
+    }, t*1000);
     countdown();
   }
 
@@ -30,7 +30,7 @@
     if(t != 0) {
       setTimeout('countdown(t-1)', 1000);
     }
-    t-=1;
+    t--;
   }
   </script>
 
