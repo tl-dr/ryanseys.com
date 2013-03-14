@@ -9,6 +9,5 @@ categories: about
   {% if page.name != "resume" %}
     <a name="{{ page.name }}" href="{{ page.url }}"><h3>{{ page.title }}</h3></a>
     {{ page.content }}
-    {% if page != pages.last %}<hr />{% endif %}
   {% endif %}
 {% endfor %}
