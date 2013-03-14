@@ -63,8 +63,8 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
-  font-size:12px;
+  color:#444;
+  font-size:13px;
 }
 
 pre {
@@ -100,7 +100,7 @@ img {
 }
 
 header {
-  width:214px; /*width of sidebar */
+  width:240px; /*width of sidebar */
   float:left;
   position:fixed;
 }
@@ -158,19 +158,19 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:13px;
   display:block;
   color:#222;
 }
 
 section {
-  width:650px; /*width of right section */
+  width:630px; /*width of right section */
   float:right;
   padding-bottom:50px;
 }
 
 small {
-  font-size:14px;
+  font-size:13px;
 }
 
 hr {
