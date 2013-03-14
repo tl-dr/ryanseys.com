@@ -182,10 +182,8 @@ hr {
 }
 
 footer {
-  width:220px;
-  float:left;
-  position:relative;
-  bottom:10px;
+  position:fixed;
+  bottom:0px;
 }
 
 @media print, screen and (max-width: 960px) {
