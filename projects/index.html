@@ -7,6 +7,13 @@ categories: projects
 {% assign projects = site.categories.projects %}
 {% for project in projects %}
   <a name="{{ project.name }}" href="{{ project.url }}"><h3>Project: {{ project.title }}</h3></a>
-  {{ project.content }}
-  {% if project != projects.last %}<hr />{% endif %}
+  {% assign truncated_project = project.content | split:"<!-- truncate_here -->" | first %}
+  {% if truncated_project != project.content %}
+  {{ truncated_project | append:".."}}
+  <a href="{{ project.url }}">
+    <p>Continue reading &rarr;</p>
+  </a>
+  {% else %}
+   {{ project.content }}
+  {% endif %}
 {% endfor %}

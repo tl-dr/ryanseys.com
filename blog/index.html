@@ -17,9 +17,6 @@ categories: blog
     <p>Continue reading &rarr;</p>
   </a>
   {% else %}
-   {{ truncated_post }}
-  {% endif %}
-  {% if post != blogposts.last %}
-    <hr />
+   {{ post.content }}
   {% endif %}
 {% endfor %}
