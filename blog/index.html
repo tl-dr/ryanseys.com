@@ -19,4 +19,7 @@ categories: blog
   {% else %}
    {{ post.content }}
   {% endif %}
+  {% if post != blogposts.last %}
+    <hr />
+  {% endif %}
 {% endfor %}

@@ -9,11 +9,12 @@ categories: projects
   <a name="{{ project.name }}" href="{{ project.url }}"><h3>Project: {{ project.title }}</h3></a>
   {% assign truncated_project = project.content | split:"<!-- truncate_here -->" | first %}
   {% if truncated_project != project.content %}
-  {{ truncated_project | append:".."}}
+  {{ truncated_project }}
   <a href="{{ project.url }}">
     <p>Continue reading &rarr;</p>
   </a>
   {% else %}
    {{ project.content }}
   {% endif %}
+  {% if project != projects.last %}<hr />{% endif %}
 {% endfor %}
