@@ -7,7 +7,7 @@ name: multi-sesh-webct
 
 Multi-Session WebCT is an addon/extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/[Chrome](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) that I hacked together in a weekend for "enabling" multi-session support within the Carleton University WebCT learning management system (LMS).
 
-I use the word "enabling" with caution as it is not so much creating a feature as it is destroying a restriction. The (now deprecated) LMS for Carleton, WebCT, did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly.
+I use the word "enabling" with caution as it is not so much creating a feature as it is destroying a restriction. The (now deprecated) LMS for Carleton, [WebCT](http://en.wikipedia.org/wiki/WebCT), did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly.
 
 ## Stupid WebCT
 
@@ -29,9 +29,9 @@ Fix'd (but with a few limitations):
 
 1. The coward cookie is a tattle-tale beyond the grave: if you refresh your browser after he dies, your session will also die and you will be immediately logged out. Just don't refresh and your session should stay alive, even between page-to-page navigations.
 
-2. You cannot just block cookies from the CarletonU WebCT (sub)domain. Other cookies from WebCT (including possibly the coward cookie) are required for initial login procedures to create the session. For this reason I made it only destroy the coward when it was sure that you wanted an additional session open (when you click the addon button).
+2. You cannot just block cookies from the Carleton WebCT (sub)domain. Other cookies from WebCT (including possibly the coward cookie) are required for initial login procedures to create the session. For this reason I made it only destroy the coward when it was sure that you wanted an additional session open (when you click the addon button).
 
-3. WebCT at Carleton is now deprecated. Carleton's next LMS, [Moodle](http://moodle.org), is next up on the cutting block and with it comes its own discrepancies and outright blatant issues. You can just never win.
+3. WebCT at Carleton is now deprecated, (though some courses still use it). Carleton's next LMS, [Moodle](http://moodle.org), is next up on the cutting block and with it comes its own discrepancies and outright blatant issues. You can just never win. The addons/extensions are still freely available for download and use, though their lifespan may soon come to a screeching halt as Carleton phases out the use of WebCT for Moodle.
 
 ## Conclusion
 
