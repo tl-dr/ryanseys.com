@@ -101,8 +101,11 @@ img {
 
 header {
   width:240px; /*width of sidebar */
+  height:100%;
   float:left;
   position:fixed;
+  overflow: auto;
+  padding-right:10px;
 }
 
 header ul {
