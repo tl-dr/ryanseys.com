@@ -1,9 +1,12 @@
+safe: true
 markdown: rdiscount
 pygments: true
 auto: true
 permalink: /:categories/:title
 url: http://ryanseys.com
 markdown: maruku
+server_port: 4000
+future: false
 exclude:
 - README.md
 - CNAME
