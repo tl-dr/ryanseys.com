@@ -12,9 +12,7 @@ That is the ideal world of course. It is much more easily said than done, and I'
 
 ![iX500](/img/ix500.png "iX500")
 
-This scanner set me back quite a bit of money, though I hope it makes up for in efficiency. I owned a scanner previous to this purchase, though considering its a flatbed-type, it would take me weeks upon weeks to scan the documents I already had (the trick is to scan as the documents come to exist in your life, though this is not really an option for me right now).
-
-I will describe to everyone my workflow of this day project, hopefully succeeding in the end to get an efficient setup that will produce the highest quality result.
+This scanner set me back quite a bit of money, though I hope it makes up for in efficiency. I owned a scanner previous to this purchase, though considering it's a flatbed-type, it would take me weeks upon weeks to scan the documents I already had (the trick is to scan as the documents come to exist in your life, though this is not really an option for me right now).
 
 Things I want to come of this:
 
