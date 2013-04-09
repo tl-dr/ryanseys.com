@@ -26,6 +26,7 @@ Things I want to come of this:
 - [ScanSnap Manager](http://www.fujitsu.com/global/support/computing/peripheral/scanners/software/ix500w-setup.html) (included)
 - [ABBYY FineReader](http://finereader.abbyy.com/) for ScanSnap (included)
 - Macbook Pro
+- Lots of documents!
 
 ![My Setup](/img/going-paperless.png "My Setup")
 
