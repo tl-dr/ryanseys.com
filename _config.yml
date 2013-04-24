@@ -12,3 +12,5 @@ exclude:
 - CNAME
 - params.json
 - Gemfile
+- Gemfile.lock
+- Procfile
