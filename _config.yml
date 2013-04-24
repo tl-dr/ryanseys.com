@@ -13,4 +13,3 @@ exclude:
 - params.json
 - Gemfile
 - Gemfile.lock
-- Procfile
