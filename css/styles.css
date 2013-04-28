@@ -24,6 +24,15 @@ h1 {
   font-size:28px;
 }
 
+.stalk_link {
+  font-size:18px;
+  display:inline;
+}
+
+.me_blurb {
+  margin:-15px 0 15px;
+}
+
 h2 {
   color:#393939;
 }
