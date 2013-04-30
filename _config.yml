@@ -1,6 +1,6 @@
 safe: true
-markdown: rdiscount
 pygments: true
+lsi: false
 auto: true
 permalink: /:categories/:title
 url: http://ryanseys.com
