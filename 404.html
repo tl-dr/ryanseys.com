@@ -20,6 +20,9 @@
   var t = 3; //redirect in this many seconds
 
   function load() {
+    if(window.location.href == "http://ryanseys.com/github") {
+      window.location = "https://github.com/ryanseys";
+    }
     setTimeout(function() {
       window.location = "http://ryanseys.com";
     }, t*1000);
