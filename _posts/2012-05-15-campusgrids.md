@@ -5,9 +5,12 @@ categories: projects
 name: campusgrids
 ---
 
-[Campusgrids](http://campusgrids.com/) is a website created for Carleton University students by students for finding clubs and events on campus. It's a great way to discover new activities and promote your own directly to the Carleton community.
+A social website for Carleton University students used to find clubs and events on campus.
 
+[website](http://campusgrids.com/) &mdash; [details](/projects/campusgrids)
 <!-- truncate_here -->
+
+It's a great way to discover new activities and promote your own directly to the Carleton community.
 
 ![Campusgrids Logo](/img/campusgrids.png "Campusgrids Logo")
 

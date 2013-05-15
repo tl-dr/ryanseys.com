@@ -5,7 +5,9 @@ categories: projects
 name: multi-sesh-webct
 ---
 
-Multi-Session WebCT is an addon/extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/[Chrome](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) that I hacked together in a weekend for "enabling" multi-session support within the Carleton University WebCT learning management system (LMS).
+A Firefox [addon](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/Chrome [extension](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) that enables multiple sessions in Carleton U's WebCT.
+
+[addon](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/[extension](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) &mdash; [details](/projects/multi-sesh-webct)
 
 <!-- truncate_here -->
 
