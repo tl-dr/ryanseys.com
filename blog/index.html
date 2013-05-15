@@ -4,6 +4,7 @@ title: Blog
 categories: blog
 ---
 
+<div id="blog" style="padding-top:30px; margin-top:-23px;">
 {% assign blogposts = site.categories.blog %}
 {% for post in blogposts %}
   <small style="float:right; margin-top:5px;">{{ post.date | date:'%a %d %b %Y' }}</small>
@@ -23,3 +24,7 @@ categories: blog
     <hr />
   {% endif %}
 {% endfor %}
+</div>
+<script type="text/javascript">
+  scroll_to('blog');
+</script>

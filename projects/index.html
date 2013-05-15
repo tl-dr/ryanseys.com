@@ -3,7 +3,7 @@ layout: default
 title: Projects
 categories: projects
 ---
-
+<div id="projects" style="padding-top:30px; margin-top:-23px;">
 {% assign projects = site.categories.projects %}
 {% for project in projects %}
   <a name="{{ project.name }}" href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
@@ -18,3 +18,7 @@ categories: projects
   {% endif %}
   {% if project != projects.last %}<hr />{% endif %}
 {% endfor %}
+</div>
+<script type="text/javascript">
+  scroll_to('projects');
+</script>
