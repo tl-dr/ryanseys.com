@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Multi-Session WebCT
-categories: projects
+category: projects
+tags: sidebar
 name: multi-sesh-webct
 ---
 

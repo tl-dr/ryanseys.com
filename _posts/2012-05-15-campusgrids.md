@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Campusgrids
-categories: projects
+category: projects
 name: campusgrids
 ---
 

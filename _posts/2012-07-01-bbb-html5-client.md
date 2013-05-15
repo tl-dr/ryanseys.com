@@ -1,7 +1,8 @@
 ---
 layout: post
 title: BigBlueButton HTML5 Client
-categories: projects
+category: projects
+tags: sidebar
 name: bbb-html5-client
 ---
 
