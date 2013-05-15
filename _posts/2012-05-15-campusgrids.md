@@ -16,4 +16,6 @@ A social website for Carleton University students used to find clubs and events 
 
 As a member of the Campusgrids development team I built out various features of the website in both the front and back-end, as well as fixed many bugs. As an example, I worked on developing instant search results for faster, more efficient searching for users. This involved front-end CSS and JavaScript as well as back-end interactions with the database (MySQL). The site is built using the LAMP software bundle but is currently closed-sourced :(
 
-You can visit the website [here](http://campusgrids.com/).
+- - -
+
+[website](http://campusgrids.com/)

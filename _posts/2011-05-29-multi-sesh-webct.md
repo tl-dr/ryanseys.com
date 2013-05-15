@@ -6,13 +6,15 @@ tags: sidebar
 name: multi-sesh-webct
 ---
 
-A Firefox [addon](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/Chrome [extension](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) that enables multiple sessions in Carleton U's WebCT.
+A Firefox [addon][addon]/Chrome [extension][extension] that enables multiple sessions in Carleton U's WebCT.
 
-[addon](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)/[extension](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en) &mdash; [details](/projects/multi-sesh-webct)
+[addon][addon]/[extension][extension] &mdash; [details][details]
 
 <!-- truncate_here -->
 
-I use the word "enabling" with caution as it is not so much creating a feature as it is destroying a restriction. The (now deprecated) LMS for Carleton, [WebCT](http://en.wikipedia.org/wiki/WebCT), did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly in my opinion.
+Multi-Session WebCT is a Firefox [addon][addon]/Chrome [extension][extension] that "enables" multiple sessions in Carleton U's WebCT.
+
+I use the word "enables" with caution as it is not so much creating a feature as it is destroying a restriction. The (now deprecated) LMS for Carleton, [WebCT][webct], did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly in my opinion.
 
 ## Silly WebCT
 
@@ -44,3 +46,11 @@ Fix'd (but with a few limitations):
 
 This was a great weekend project, taught me a bunch about building browser addon/extensions, though a cookies should only be delicious and rewarding, not tattling cowards. That is all.
 
+- - -
+
+Firefox [addon][addon] &mdash; Chrome [extension][extension]
+
+[addon]: https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/
+[extension]: https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en
+[details]: /projects/multi-sesh-webct
+[webct]: http://en.wikipedia.org/wiki/WebCT
