@@ -8,13 +8,13 @@ name: bbb-html5-client
 
 BigBlueButton web conferencing (rooms, whiteboard/slides, chat) all real-time in HTML5!
 
-[details](/projects/bbb-html5-client) &mdash; [code](https://github.com/bigbluebutton/bigbluebutton/tree/master/labs/bbb-html5-client)
+[details][details] &mdash; [code][client]
 
 <!-- truncate_here -->
 
 BigBlueButton HTML5 Client is an experimental HTML5 port of BigBlueButton, an open source web conferencing system, which allows real-time web conferencing in the browser featuring (private) meeting rooms, whiteboard/slides, chat, and much more, now all in HTML5!
 
-In the summer of 2012, I had the pleasure of working at Blindside Networks, an Ottawa-based startup driving the BigBlueButton project. <a href="http://bigbluebutton.org" target="_blank">BigBlueButton</a> is an open-source web conferencing system designed for distance education. It helps educators and students connect and communicate using voice & video, whiteboard/slides, and text chat, all real-time in the browser.
+In the summer of 2012, I had the pleasure of working at [Blindside Networks][bsn], an Ottawa-based startup driving the BigBlueButton project. [BigBlueButton][bbb] is an open-source web conferencing system designed for distance education. It helps educators and students connect and communicate using voice & video, whiteboard/slides, and text chat, all real-time in the browser.
 
 During my stay, I worked on a brand spankin' new client for them in HTML5 to replace their current Flash implementation. Created from the ground up using Node.js, Socket.io, Redis, and lots of JavaScript I built out the existing features of their client into a brand new, HTML5 version (yes, it even works on your phone)!
 
@@ -32,4 +32,10 @@ I did get the chance to fool around with adding audio/video support to the BigBl
 
 - - -
 
-[client code](https://github.com/bigbluebutton/bigbluebutton/tree/master/labs/bbb-html5-client) &mdash; [webrtc code](https://github.com/bigbluebutton/bigbluebutton/tree/master/labs/bbb-html5-client)
+[client code][client] &mdash; [webrtc code][webrtc]
+
+[details]: /projects/bbb-html5-client
+[client]: https://github.com/bigbluebutton/bigbluebutton/tree/master/labs/bbb-html5-client
+[webrtc]: https://github.com/ryanseys/webrtc-test
+[bbb]: http://www.bigbluebutton.org
+[bsn]: http://www.blindsidenetworks.com/

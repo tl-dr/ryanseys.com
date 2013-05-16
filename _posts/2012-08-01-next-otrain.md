@@ -11,7 +11,9 @@ A one-click solution to determine when Ottawa's O-Train is scheduled for its nex
 [app](http://nextotrain.com) &mdash; [details](/projects/next-otrain) &mdash; [code](https://github.com/ryanseys/next-otrain)
 <!-- truncate_here -->
 
-[Next-OTrain](http://nextotrain.com) is a one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival. Ottawa, Ontario is home to the OTrain, a lightrail train that travels between 5 stops, the middle of which is my school, Carleton University. I got fed up trying to memorize when the next one was going to arrive so I made this app to help me!
+[Next-OTrain](http://nextotrain.com) is a one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival.
+
+Ottawa, Ontario is home to the OTrain, a lightrail train that travels between 5 stops, the middle of which is my school, Carleton University. I got fed up trying to memorize when the next one was going to arrive so I made this app to help me!
 
 The web app loads quickly and is easy to navigate. Just click your station, and instantly you can see when the next one is scheduled to arrive along with a second-by-second countdown to its scheduled arrival time.
 
