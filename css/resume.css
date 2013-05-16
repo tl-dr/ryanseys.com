@@ -7,19 +7,31 @@ th {
   font-size:12pt;
   font-family:Calibri;
   font-weight: bold;
+  margin-bottom:2px;
+}
+
+ul {
+  margin:2px 0 20px;
+}
+
+body {
+  padding:15px;
+  font:12pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#444;
 }
 
 h4 {
   font-variant:small-caps;
-  margin-top: 8px;
-  margin-bottom: 15px;
+  margin-top: 4px;
+  margin-bottom: 12px;
   color: black;
 }
 
 #titlename {
   text-align:center;
-  margin-top:-35px;
+  margin-top:-40px;
   margin-left:90px;
+  margin-bottom:25px;
   font-variant:small-caps;
 }
 
@@ -58,9 +70,11 @@ th {
 
 .jobrole {
   margin-top: 2px;
-  margin-bottom: -6px;
+  margin-bottom: -4px;
   margin-left: 8px;
   color: black;
+  font-size:13pt;
+  font-family:Calibri;
 }
 
 .color_link {
@@ -69,7 +83,7 @@ th {
 }
 
 ul {
-  padding-top: 6px;
+  padding-top: 2px;
   padding-bottom:0px;
   margin-bottom: 0px;
 }
@@ -108,4 +122,5 @@ table {
 
 p {
   margin-bottom: 4px;
+  font-size:12pt;
 }
