@@ -8,10 +8,10 @@ name: next-otrain
 
 A one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival.
 
-[app](http://nextotrain.com) &mdash; [details](/projects/next-otrain) &mdash; [code](https://github.com/ryanseys/next-otrain)
+[app][app] &mdash; [details][details] &mdash; [code][code]
 <!-- truncate_here -->
 
-[Next-OTrain](http://nextotrain.com) is a one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival.
+[Next-OTrain][app] is a one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival.
 
 Ottawa, Ontario is home to the OTrain, a lightrail train that travels between 5 stops, the middle of which is my school, Carleton University. I got fed up trying to memorize when the next one was going to arrive so I made this app to help me!
 
@@ -29,4 +29,9 @@ You can also mark a station as a favourite which will auto-load when you load th
 
 - - -
 
-[app](http://nextotrain.com) &mdash; [code](https://github.com/ryanseys/next-otrain)
+[app][app] &mdash; [code][code]
+
+
+[app]: http://nextotrain.com
+[code]: https://github.com/ryanseys/next-otrain
+[details]: /projects/next-otrain

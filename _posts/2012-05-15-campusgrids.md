@@ -7,10 +7,11 @@ name: campusgrids
 
 A social website for Carleton University students used to find clubs and events on campus.
 
-[website](http://campusgrids.com/) &mdash; [details](/projects/campusgrids)
+[website][website] &mdash; [details][details]
+
 <!-- truncate_here -->
 
-[Campusgrids](http://campusgrids.com/) is a great way to discover new clubs, events and activities at Carleton University. It was created for students by students. I had the pleasure of working on this project in its earlier stages.
+[Campusgrids][website] is a great way to discover new clubs, events and activities at Carleton University. It was created for students by students. I had the pleasure of working on this project in its earlier stages.
 
 ![Campusgrids Logo](/img/campusgrids.png "Campusgrids Logo")
 
@@ -18,4 +19,7 @@ As a member of the Campusgrids development team I built out various features of 
 
 - - -
 
-[website](http://campusgrids.com/)
+[website][website]
+
+[website]: http://campusgrids.com/
+[details]: /projects/campusgrids
