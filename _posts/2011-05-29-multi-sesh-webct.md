@@ -6,15 +6,21 @@ tags: sidebar
 name: multi-sesh-webct
 ---
 
-A Firefox [addon][addon]/Chrome [extension][extension] that enables multiple sessions in Carleton U's WebCT.
+A Firefox [addon][addon]/Chrome [extension][extension] that enables multiple sessions for Carleton U's WebCT.
 
 [addon][addon]/[extension][extension] &mdash; [details][details]
 
 <!-- truncate_here -->
 
-Multi-Session WebCT is a Firefox [addon][addon]/Chrome [extension][extension] that "enables" multiple sessions in Carleton U's WebCT.
+Multi-Session WebCT is a Firefox [addon][addon]/Chrome [extension][extension] that "enables" multiple sessions for Carleton U's WebCT.
 
-I use the word "enables" with caution as it is not so much creating a feature as it is destroying a restriction. The (now deprecated) LMS for Carleton, [WebCT][webct], did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly in my opinion.
+- - -
+
+**Note:** WebCT at Carleton University is now **retired**, rendering these extensions useless in their current form. If you would like to modify them for your own use with your school (or otherwise), you can find the code [here][code]! Fork away!
+
+- - -
+
+I use the word "enables" with caution as it is not so much creating a feature as it is destroying a restriction. The (now retired) LMS for Carleton, [WebCT][webct], did not allow you to have multiple sessions open **within the same browser**. This restriction was likely created as a security precaution so in theory it was created in good faith, though in reality it was executed rather poorly in my opinion.
 
 ## Silly WebCT
 
@@ -40,7 +46,7 @@ Fix'd (but with a few limitations):
 
 2. You cannot just block cookies from the Carleton WebCT (sub)domain. Other cookies from WebCT (including possibly the coward cookie) are required for initial login procedures to create the session. For this reason I made it only destroy the coward when it was sure that you wanted an additional session open (when you click the addon button).
 
-3. WebCT at Carleton is now deprecated, (though some courses still use it). Carleton's next LMS, [Moodle](http://moodle.org), is next up on the cutting block and with it comes its own discrepancies and outright blatant issues. You can just never win. The addons/extensions are still freely available for download and use, though their lifespan may soon come to a screeching halt as Carleton phases out the use of WebCT for Moodle.
+3. WebCT at Carleton is now **RETIRED!** Carleton's next LMS, [Moodle](http://moodle.org), is next up on the cutting block and with it comes its own discrepancies and outright blatant issues. You can just never win. The addon/extension and its [code][code] is still freely available for download. If you wish to modify these extensions for use with your own school's WebCT, go for it!
 
 ## Conclusion
 
@@ -54,3 +60,4 @@ Firefox [addon][addon] &mdash; Chrome [extension][extension]
 [extension]: https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en
 [details]: /projects/multi-sesh-webct
 [webct]: http://en.wikipedia.org/wiki/WebCT
+[code]: https://github.com/ryanseys/multi-sesh-webct
