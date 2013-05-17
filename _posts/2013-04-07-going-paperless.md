@@ -5,10 +5,10 @@ categories: blog
 name: going-paperless
 ---
 
-I was inspired today by a [Lifehacker post](http://lifehacker.com/5993869/five-best-document-scanners-for-going-paperless) to go paperless. I am in the midst of decluttering my life in preparation for moving, and with a large box full of documents laying around, I thought this would make the perfect day project.<!-- truncate_here --> One large problem about going paperless is that you still need the information on the paper you currently have laying around; it's not as easy as simply throwing it all out. But with a good scanner, one may hope to turn that box of documents into a neatly organized folder of PDFs, fully indexed and searchable.
+I was inspired today by a [Lifehacker post][post] to go paperless. I am in the midst of decluttering my life in preparation for moving, and with a large box full of documents laying around, I thought this would make the perfect day project.<!-- truncate_here --> One large problem about going paperless is that you still need the information on the paper you currently have laying around; it's not as easy as simply throwing it all out. But with a good scanner, one may hope to turn that box of documents into a neatly organized folder of PDFs, fully indexed and searchable.
 
 
-That is the ideal world of course. It is much more easily said than done, and I'd need to be efficient about it if I wanted to succeed in turning a whole box of documents into digital files without spending an eternity of time and effort. So I spent money instead, went to the local Staples and purchased myself a [Fujitsu ScanSnap iX500](http://www.fujitsu.ca/products/scansnap/ix500/), inspired by the Lifehacker post as well as numerous YouTube videos showing it in action, to what I would hope would be as smooth a process as they display.
+That is the ideal world of course. It is much more easily said than done, and I'd need to be efficient about it if I wanted to succeed in turning a whole box of documents into digital files without spending an eternity of time and effort. So I spent money instead, went to the local Staples and purchased myself a [Fujitsu ScanSnap iX500][ix500], inspired by the Lifehacker post as well as numerous YouTube videos showing it in action, to what I would hope would be as smooth a process as they display.
 
 ![iX500](/img/ix500.png "iX500")
 
@@ -23,8 +23,8 @@ Things I want to come of this:
 ## My Setup
 
 - Fujitsu iX500
-- [ScanSnap Manager](http://www.fujitsu.com/global/support/computing/peripheral/scanners/software/ix500w-setup.html) (included)
-- [ABBYY FineReader](http://finereader.abbyy.com/) for ScanSnap (included)
+- [ScanSnap Manager][scansnap] (included)
+- [ABBYY FineReader][finereader] for ScanSnap (included)
 - Macbook Pro
 - Lots of documents!
 
@@ -43,3 +43,8 @@ So in a half-afternoon I managed to scan 2000+ pages (lots of which were also do
 Insert pages, press 'Scan', done!
 
 ![Done](/img/scanned.png "Done")
+
+[post]: http://lifehacker.com/5993869/five-best-document-scanners-for-going-paperless
+[ix500]: http://www.fujitsu.ca/products/scansnap/ix500/
+[scansnap]: http://www.fujitsu.com/global/support/computing/peripheral/scanners/software/ix500w-setup.html
+[finereader]: http://finereader.abbyy.com/
