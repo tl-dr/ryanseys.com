@@ -118,7 +118,7 @@ Keep on discovering!
 
 - - -
 
-[app][app] &mdash; [code][code]
+[app][app] &mdash; [code][code] &mdash; [discuss][hn]
 
 [app]: http://ryanseys.com/photogps
 [code]: https://github.com/ryanseys/photogps
@@ -131,3 +131,4 @@ Keep on discovering!
 [flickrblogpost]: http://code.flickr.net/2012/06/01/parsing-exif-client-side-using-javascript-2/
 [pic]: /img/photogps.png
 [pinpic]: /img/pin.png
+[hn]: https://news.ycombinator.com/item?id=6039888
