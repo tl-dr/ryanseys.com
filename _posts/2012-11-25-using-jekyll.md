@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: Using Jekyll with Github Pages
 categories: blog
 name: using-jekyll

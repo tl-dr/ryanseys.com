@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: Getting browser location with tmprtr
 categories: blog
 name: browser-location
