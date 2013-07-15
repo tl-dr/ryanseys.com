@@ -1,1 +1,37 @@
-You are on provision.html
+<html>
+  <head>
+    <script src="https://login.persona.org/provisioning_api.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+  </head>
+  <body>
+    <script>
+      function generateServerSide(email, pubkey, certDur, callback) {
+        var data = {};
+        data.duration = certDur;
+        data.pubkey = pubkey;
+        data.email = email;
+        $.post("/certify", data)
+        .done(function(returndata) {
+          var cert;
+          if(typeof(returndata) == "string")
+            cert = JSON.parse(returndata).certificate;
+          else cert = returndata.certificate;
+          callback(cert);
+        });
+      }
+
+      navigator.id.beginProvisioning(function(email, certDuration) {
+        alert(email);
+        navigator.id.genKeyPair(function(publicKey) {
+          generateServerSide(email, publicKey, certDuration, function (certificate) {
+            // generateServerSide something you would write.
+            // In this example, imagine it does an AJAX request to create a certificate,
+            // and then invokes a callback with that certificate.
+            navigator.id.registerCertificate(certificate);
+          });
+        });
+      });
+    </script>
+    <p>Provision.html</p>
+  </body>
+</html>
