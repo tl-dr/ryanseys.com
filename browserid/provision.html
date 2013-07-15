@@ -22,18 +22,14 @@
           dataType: "json",
           success: function(returndata)
           {
-            var cert;
-            alert(returndata);
-            if(typeof(returndata) == "string")
-              cert = JSON.parse(returndata).certificate;
-            else cert = returndata.certificate;
-            callback(cert);
+            if(returndata.success)
+              return callback(returndata.certificate);
+            return callback(null);
           }
         });
       }
 
       navigator.id.beginProvisioning(function(email, certDuration) {
-        console.log(email);
         navigator.id.genKeyPair(function(publicKey) {
           generateServerSide(email, publicKey, certDuration, function (certificate) {
             // generateServerSide something you would write.
