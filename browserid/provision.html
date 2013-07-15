@@ -7,16 +7,12 @@
     <script>
       function generateServerSide(email, pubkey, certDur, callback) {
         var data = {};
-        alert(email);
-        alert(pubkey);
-        alert(certDur);
+        console.log(email);
+        console.log(pubkey);
+        console.log(certDur);
         data.duration = certDur;
         data.pubkey = JSON.stringify(pubkey);
         data.email = email;
-        $.post("/certify", data)
-        .done(function(returndata) {
-
-        });
 
         $.ajax( {
           url: 'https://ryanseys.com/certify',
@@ -39,7 +35,7 @@
       }
 
       navigator.id.beginProvisioning(function(email, certDuration) {
-        alert(email);
+        console.log(email);
         navigator.id.genKeyPair(function(publicKey) {
           generateServerSide(email, publicKey, certDuration, function (certificate) {
             // generateServerSide something you would write.
