@@ -23,10 +23,10 @@
           success: function(returndata)
           {
             var cert;
+            alert(returndata);
             if(typeof(returndata) == "string")
               cert = JSON.parse(returndata).certificate;
             else cert = returndata.certificate;
-            alert(cert);
             callback(cert);
           }
         });
