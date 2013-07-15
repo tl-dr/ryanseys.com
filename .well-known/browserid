@@ -1,3 +1,9 @@
 {
-  "authority": "persona.org"
+  "public-key": {
+      "algorithm": "RS",
+      "n": "wrong",
+      "e": "65537"
+  },
+  "authentication": "/browserid/sign_in.html",
+  "provisioning": "/browserid/provision.html"
 }
