@@ -2,7 +2,7 @@ safe: true
 pygments: true
 lsi: false
 permalink: /:categories/:title
-url: http://ryanseys.com
+url: https://ryanseys.com
 markdown: maruku
 port: 4000
 future: false
