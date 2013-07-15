@@ -18,7 +18,9 @@
           url: 'https://ryanseys.com/certify',
           type: 'post',
           data: data,
-          dataType: 'json',
+          headers: {
+            "Content-Type": 'application/json'  //for object property name, use quoted notation shown in second
+          },
           success: function(returndata)
           {
             var cert;
