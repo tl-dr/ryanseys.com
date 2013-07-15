@@ -120,7 +120,7 @@ Keep on discovering!
 
 [app][app] &mdash; [code][code] &mdash; [discuss][hn]
 
-[app]: http://ryanseys.com/photogps
+[app]: http://ryanseys.github.io/photogps/
 [code]: https://github.com/ryanseys/photogps
 [api]: https://developer.mozilla.org/en-US/docs/Web/API/FileReader
 [dnd]: http://www.html5rocks.com/en/tutorials/dnd/basics/
