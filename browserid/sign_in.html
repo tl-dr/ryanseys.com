@@ -4,14 +4,17 @@
   </head>
   <body>
     <script>
-    function getParameterByName(name) {
-      name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-          results = regex.exec(location.search);
-      return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    function getAccessToken() {
+      try {
+        return location.href.match(/access_token=(\S*)&/)[1];
+      }
+      catch(err) {
+        return null;
+      }
     }
 
-    var token = getParameterByName("access_token");
+    var token = getAccessToken();
+
     if(token) {
       alert("got token! " + token);
       // get email from this fb login
@@ -22,7 +25,7 @@
 
     var loggedIn = false;
     var cancelButton = document.getElementById('cancelButton');
-    cancelButton.onclick = function() { navigator.id.raiseAuthenticationFailure('user clicked cancel') };
+    cancelButton.onclick = function() {  };
 
     navigator.id.beginAuthentication(function(email) {
       //try to login to fb with this email
@@ -30,6 +33,7 @@
         navigator.id.completeAuthentication();
       }
       else {
+        navigator.id.raiseAuthenticationFailure('not logged in')
         // if fail, then show login
       }
     });
