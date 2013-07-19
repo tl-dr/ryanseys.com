@@ -1,6 +1,7 @@
 <html>
   <head>
     <script src="https://login.persona.org/authentication_api.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
   </head>
   <body>
     <script>
@@ -15,9 +16,13 @@
 
     var token = getAccessToken();
 
+    var onLoadJSONP = function(json) {
+      alert(json);
+    }
+
     if(token) {
       alert("got token! " + token);
-      // get email from this fb login
+      $.getJSON('https://graph.facebook.com/me?access_token=' + token + 'callback=?', onLoadJSONP);
     }
     else {
       location.href="https://www.facebook.com/dialog/oauth?display=popup&response_type=token&scope=email&client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/sign_in.html?";
@@ -27,16 +32,7 @@
     var cancelButton = document.getElementById('cancelButton');
     cancelButton.onclick = function() {  };
 
-    navigator.id.beginAuthentication(function(email) {
-      //try to login to fb with this email
-      if(loggedIn) {
-        navigator.id.completeAuthentication();
-      }
-      else {
-        navigator.id.raiseAuthenticationFailure('not logged in')
-        // if fail, then show login
-      }
-    });
+
     </script>
   </body>
 </html>
