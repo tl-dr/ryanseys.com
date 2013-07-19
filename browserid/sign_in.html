@@ -3,15 +3,21 @@
     <script src="https://login.persona.org/authentication_api.js"></script>
   </head>
   <body>
-    <input type="button" onclick=location.href="https://www.facebook.com/dialog/oauth?display=popup&response_type=token&client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/sign_in.html" value="Login to Facebook"></input>
-    <button id="cancelButton">Cancel</button>
-
     <script>
     function getParameterByName(name) {
       name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
           results = regex.exec(location.search);
       return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    var token = getParameterByName("access_token");
+    if(token) {
+      alert("got token! " + token);
+      // get email from this fb login
+    }
+    else {
+      location.href="https://www.facebook.com/dialog/oauth?display=popup&response_type=token&scope=email&client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/sign_in.html?";
     }
 
     var loggedIn = false;
