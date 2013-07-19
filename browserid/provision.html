@@ -5,7 +5,9 @@
   </head>
   <body>
     <script>
+      alert('seeing if signed in!');
       function generateServerSide(email, pubkey, certDur, callback) {
+        // here check the login status of this email
         var data = JSON.stringify({
           duration : certDur,
           pubkey : pubkey,
@@ -22,6 +24,7 @@
           dataType: "json",
           success: function(returndata)
           {
+            return callback(null); // Always fail login for now to force login screen
             if(returndata.success)
               return callback(returndata.certificate);
             return callback(null);
@@ -30,17 +33,20 @@
       }
 
       navigator.id.beginProvisioning(function(email, certDuration) {
-        navigator.id.genKeyPair(function(publicKey) {
-          generateServerSide(email, publicKey, certDuration, function (certificate) {
-            // generateServerSide something you would write.
-            // In this example, imagine it does an AJAX request to create a certificate,
-            // and then invokes a callback with that certificate.
+        //always raise failure
+        navigator.id.raiseProvisioningFailure('user is not authenticated as target user');
 
-            //navigator.id.registerCertificate(certificate);
-          });
-        });
+        // navigator.id.genKeyPair(function(publicKey) {
+        //   generateServerSide(email, publicKey, certDuration, function (certificate) {
+        //     // generateServerSide something you would write.
+        //     // In this example, imagine it does an AJAX request to create a certificate,
+        //     // and then invokes a callback with that certificate.
+
+        //     navigator.id.registerCertificate(certificate);
+        //   });
+        // });
       });
     </script>
-    <p>Provision.html</p>
+    <p>You are on provision.html</p>
   </body>
 </html>

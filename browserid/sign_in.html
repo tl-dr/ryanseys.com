@@ -1,1 +1,25 @@
-Howdy! You are on sign_in.html
+<html>
+  <head>
+    <script src="https://login.persona.org/authentication_api.js"></script>
+  </head>
+  <body>
+    <input type="button" onclick=location.href="https://www.facebook.com/dialog/oauth?client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/provision.html" value="Login to Facebook"></input>
+    <button id="cancelButton">Cancel</button>
+
+    <script>
+    var loggedIn = false;
+    var cancelButton = document.getElementById('cancelButton');
+    cancelButton.onclick = function() { navigator.id.raiseAuthenticationFailure('user clicked cancel') };
+
+    navigator.id.beginAuthentication(function(email) {
+      //try to login to fb with this email
+      if(loggedIn) {
+        navigator.id.completeAuthentication();
+      }
+      else {
+        // if fail, then show login
+      }
+    });
+    </script>
+  </body>
+</html>
