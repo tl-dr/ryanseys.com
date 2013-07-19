@@ -22,7 +22,9 @@
 
     if(token) {
       alert("got token! " + token);
-      $.getJSON('https://graph.facebook.com/me?access_token=' + token + 'callback=?', onLoadJSONP);
+      $.getJSON('https://graph.facebook.com/me?access_token=' + token + '&callback=?', function (response) {
+        alert(response);
+      });
     }
     else {
       location.href="https://www.facebook.com/dialog/oauth?display=popup&response_type=token&scope=email&client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/sign_in.html?";
