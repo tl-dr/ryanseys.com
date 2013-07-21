@@ -4,6 +4,9 @@
   </head>
   <body>
     <script>
+    navigator.id.beginAuthentication(function(email) {
+
+    });
     function getAccessToken() {
       try {
         return location.href.match(/access_token=(\S*)&/)[1];
@@ -17,6 +20,11 @@
 
     function onLoadJSONP(j) {
       console.log(JSON.stringify(j));
+      navigator.id.beginAuthentication(function(email) {
+        if(j.email == email) {
+          navigator.id.completeAuthentication();
+        }
+      });
     }
 
     if(token) {
