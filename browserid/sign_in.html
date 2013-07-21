@@ -16,21 +16,18 @@
 
     var token = getAccessToken();
 
-    var onLoadJSONP = function(json) {
-      alert(json);
+    function onLoadJSONP(j) {
+      console.log(j);
+      alert(j);
     }
 
     if(token) {
       alert("got token! " + token);
-      if($.getJSON) {
-        $.getJSON('https://graph.facebook.com/me?access_token=' + token + '&callback=onLoadJSONP', function() {
-          alert('returned from onLoadJSONP');
-        });
-      }
-      else {
-        alert('no $.getJSON');
-      }
 
+      var script = document.createElement('script');
+      script.src = 'https://graph.facebook.com/me?callback=onLoadJSONP'
+
+      document.getElementsByTagName('head')[0].appendChild(script);
     }
     else {
       location.href="https://www.facebook.com/dialog/oauth?display=popup&response_type=token&scope=email&client_id=359821740813622&redirect_uri=https://ryanseys.com/browserid/sign_in.html?";
