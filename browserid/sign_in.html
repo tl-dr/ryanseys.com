@@ -1,7 +1,6 @@
 <html>
   <head>
     <script src="https://login.persona.org/authentication_api.js"></script>
-    <script src="../js/jquery-1.10.2.min.js"></script>
   </head>
   <body>
     <script>
@@ -17,16 +16,14 @@
     var token = getAccessToken();
 
     function onLoadJSONP(j) {
-      console.log(j);
-      alert(j);
+      console.log(JSON.stringify(j));
     }
 
     if(token) {
       alert("got token! " + token);
 
       var script = document.createElement('script');
-      script.src = 'https://graph.facebook.com/me?callback=onLoadJSONP'
-
+      script.src = 'https://graph.facebook.com/me?access_token=' + token + '&callback=onLoadJSONP';
       document.getElementsByTagName('head')[0].appendChild(script);
     }
     else {
