@@ -1,10 +1,10 @@
-Visit my website at [ryanseys.com](http://ryanseys.com)
+Visit my website at [https://ryanseys.com](https://ryanseys.com)
 
 ### Installation
 
 ```
-$ git clone git@github.com:ryanseys/ryanseys.github.com.git
-$ cd ryanseys.github.com
+$ git clone git@github.com:ryanseys/ryanseys.com.git
+$ cd ryanseys.com
 $ bundle install
 ```
 
