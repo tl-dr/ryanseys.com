@@ -1,4 +1,3 @@
-safe: true
 pygments: true
 lsi: false
 permalink: /:categories/:title
@@ -11,5 +10,13 @@ exclude:
 - params.json
 - Gemfile
 - Gemfile.lock
-include:
-- .well-known
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: yui
+  sources:
+    - js
+    - css
+
+html-compress:
+  exclude:

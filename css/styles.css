@@ -1,7 +1,14 @@
+/*
+*= require pure
+*= require pygment_trac
+*= require font-awesome
+*/
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 
 body {
-  padding:15px;
+  padding:15px 15px 0 15px; /* top right bottom left */
+  line-height: 1.7em;
   font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#444;
 }
@@ -27,25 +34,13 @@ h1 {
   font-size:28px;
 }
 
-.stalk_link {
-  font-size:18px;
-  display:inline;
-}
-
-.me_blurb {
-  margin:-15px 0 15px;
-}
-
 h2 {
   color:#393939;
+  font-size: 21px;
 }
 
 h3, h4, h5, h6 {
   color:#494949;
-}
-
-h2 {
-  font-size: 21px;
 }
 
 a {
@@ -59,11 +54,6 @@ a small {
   color:#444;
   margin-top:-0.6em;
   display:block;
-}
-
-.wrapper {
-  width:900px;
-  margin:0 auto;
 }
 
 blockquote {
@@ -108,54 +98,15 @@ th {
   color:#444;
 }
 
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 img {
   max-width:100%;
-}
-
-header {
-  width:240px; /*width of sidebar */
-  height:100%;
-  float:left;
-  position:fixed;
-  overflow: auto;
-  padding-right:10px;
-}
-
-header ul {
-  list-style:none;
-  height:40px;
-
-  padding:0;
-
-  background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-
-  border-radius:5px;
-  border:1px solid #d2d2d2;
-  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:220px;
-}
-
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #d2d2d2;
-  height:40px;
-}
-
-header ul a {
-  line-height:1;
-  font-size:16px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:40px;
 }
 
 strong {
@@ -163,98 +114,65 @@ strong {
   font-weight:700;
 }
 
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
+.header {
+  margin: 0 0;
 }
 
-header ul li + li + li {
-  border-right:none;
-  width:89px;
+.clickable {
+  cursor: pointer;
 }
 
-header ul a strong {
-  font-size:13px;
-  display:block;
-  color:#222;
+.header .pure-menu {
+  padding: 0.5em;
 }
 
-section {
-  width:630px; /*width of right section */
+.header .pure-menu li a:hover,
+.header .pure-menu li a:focus {
+  background: none;
+  border: none;
+  color: #aaa;
+}
+
+.header .pure-menu ul {
+  float: right;
+  padding-right: 15px;
+}
+
+.content {
+  margin:0;
+  margin-top:36px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:15px 15px 0 15px; /* top right bottom left */
+}
+
+.expand-icon {
   float:right;
-  padding-bottom:50px;
 }
 
-small {
-  font-size:12px;
-  color: #888;
+.phone {
+  display:none;
 }
 
-hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
-}
-
-footer {
-  position:fixed;
-  bottom:0px;
-}
-
-@media print, screen and (max-width: 960px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
+@media screen and (max-width: 390px) {
+  .phone {
+    display: inline-block;
   }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
+  .pure-menu ul {
+    display: none;
   }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+  .pure-menu ul div {
+    background-color: white;
+    border: 1px solid #DDD;
+    position: fixed;
+    top:50px;
+    right:0;
   }
-
-  header a small {
-    display:inline;
+  .pure-menu ul .hidden-phone {
+    display: none;
   }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
-}
-
-@media print, screen and (max-width: 600px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:break-word;
-  }
-}
-
-@media print {
-  body {
-    padding:15px;
-    font-size:16pt;
-    color:#444;
+  .pure-menu ul .show-phone {
+    display: inline-block;
   }
 }
