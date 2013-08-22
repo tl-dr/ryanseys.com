@@ -1,3 +1,4 @@
+safe: false
 pygments: true
 lsi: false
 permalink: /:categories/:title
@@ -15,8 +16,10 @@ assets:
   js_compressor:  uglifier
   css_compressor: yui
   sources:
-    - js
-    - css
+    - _assets/css
+    - _assets/js
+  debug: true
 
 html-compress:
-  exclude:
+  exclude: {}
+  debug: true

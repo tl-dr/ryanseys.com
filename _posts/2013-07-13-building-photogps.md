@@ -12,8 +12,6 @@ It does this by extracting the GPS location (latitude & longitude) from the Exif
 
 ![PhotoGPS][pic]
 
-- - -
-
 #### Building it out!
 
 The initial PhotoGPS app showed markers on the Google Maps for every GPS-embedded photo it processed, but how can you even reflect on the memories taken at that point without a preview of the image. So a more recent version of PhotoGPS included thumbnail previews of your images (as shown in the screenshot above). Getting the thumbnails without using a server side is not too complicated in modern browsers. I just read the file in as a DataURL using the FileReader API, wrap that data in an image and voila!

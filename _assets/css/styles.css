@@ -7,9 +7,29 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 
 body {
-  padding:15px 15px 0 15px; /* top right bottom left */
+  padding:15px 10px 0 10px; /* top right bottom left */
   line-height: 1.7em;
   font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#444;
+  /*background: white url('/img/home2.jpg') no-repeat center;*/
+}
+
+.footer {
+  /*position:absolute;*/
+  bottom:0px;
+  left:0;
+  float:left;
+  clear: both;
+  margin:0;
+  padding:0;
+  width:100%;
+
+  text-align: center;
+  /*border:1px solid #e5e5e5;*/
+}
+
+.footer a {
+  text-decoration:none;
   color:#444;
 }
 
@@ -31,7 +51,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:48px;
+  text-align: center;
 }
 
 h2 {
@@ -114,8 +136,23 @@ strong {
   font-weight:700;
 }
 
+.circular {
+  width: 150px;
+  float:left;
+  margin-right:20px;
+  margin-bottom:10px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  background: url(/img/me.png) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
 .header {
-  margin: 0 0;
+  margin:0;
 }
 
 .clickable {
@@ -135,7 +172,7 @@ strong {
 
 .header .pure-menu ul {
   float: right;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .content {
@@ -144,7 +181,7 @@ strong {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  padding:15px 15px 0 15px; /* top right bottom left */
+  padding:15px 10px 0 10px; /* top right bottom left */
 }
 
 .expand-icon {
@@ -155,7 +192,7 @@ strong {
   display:none;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .phone {
     display: inline-block;
   }

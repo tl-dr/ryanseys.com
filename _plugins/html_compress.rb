@@ -28,7 +28,11 @@ module Jekyll
     end
 
     def output_html(path, content)
-      output_file(path, HtmlPress.press(content, {}))
+      if @site.config['html-compress'] && !@site.config['html-compress']['debug']
+        output_file(path, HtmlPress.press(content, {}))
+      else
+        output_file(path, content)
+      end
     end
   end
 

@@ -6,9 +6,9 @@ tags: sidebar
 name: multi-sesh-webct
 ---
 
-A Firefox [addon][addon]/Chrome [extension][extension] that enables multiple sessions for Carleton U's WebCT.
+A [Firefox][addon]/[Chrome][extension] extension that enables multiple login sessions for Carleton U's (now deprecated) LMS, WebCT.
 
-[addon][addon]/[extension][extension] &mdash; [details][details]
+[firefox][addon]/[chrome][extension] &mdash; [details][details] &mdash; [code][code]
 
 <!-- truncate_here -->
 
@@ -54,7 +54,7 @@ This was a great weekend project, taught me a bunch about building browser addon
 
 - - -
 
-Firefox [addon][addon] &mdash; Chrome [extension][extension]
+[Firefox][addon] &mdash; [Chrome][extension]
 
 [addon]: https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/
 [extension]: https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en
