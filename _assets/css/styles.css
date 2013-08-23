@@ -14,6 +14,10 @@ body {
   /*background: white url('/img/home2.jpg') no-repeat center;*/
 }
 
+.pure-menu-heading {
+  font-weight: bold;
+}
+
 .footer {
   /*position:absolute;*/
   bottom:0;
@@ -148,11 +152,11 @@ strong {
 }
 
 .circular {
-  width: 150px;
+  width: 125px;
+  height: 125px;
   float:left;
   margin-right:20px;
   margin-bottom:10px;
-  height: 150px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
   border-radius: 75px;
