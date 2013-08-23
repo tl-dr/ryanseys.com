@@ -196,8 +196,8 @@ strong {
   padding:15px 10px 0 10px; /* top right bottom left */
 }
 
-#links {
-    position:fixed;
+.pure-menu ul div {
+  position:fixed;
   top:8px;
   right:0;
   float:right;
@@ -225,6 +225,7 @@ strong {
   .pure-menu ul {
     display: none;
   }
+
   .pure-menu ul div {
     background-color: white;
     border: 1px solid #DDD;
