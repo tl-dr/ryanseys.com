@@ -16,7 +16,7 @@ body {
 
 .footer {
   /*position:absolute;*/
-  bottom:0px;
+  bottom:0;
   left:0;
   float:left;
   clear: both;
@@ -131,8 +131,7 @@ img {
   max-width:100%;
 }
 
-img.thumb {
-  margin:5px 0px 5px 0;
+.thumb {
   margin:5px 10px 5px 0;
   float:left;
   height:100px;
@@ -154,13 +153,13 @@ strong {
   margin-right:20px;
   margin-bottom:10px;
   height: 150px;
-  border-radius: 75px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
+  border-radius: 75px;
   background: url(/img/me.png) no-repeat;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 .header {
@@ -214,7 +213,7 @@ strong {
   display:none;
 }
 
-.pure-menu.pure-menu-fixed.pure-menu-horizontal {
+.pure-menu .pure-menu-fixed .pure-menu-horizontal {
   max-height:36px;
 }
 
