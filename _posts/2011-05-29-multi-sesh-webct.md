@@ -4,6 +4,7 @@ title: Multi-Session WebCT
 category: projects
 tags: sidebar
 name: multi-sesh-webct
+thumb: /img/webct-thumb.png
 ---
 
 A [Firefox][addon]/[Chrome][extension] extension that enables multiple login sessions for Carleton U's (now deprecated) LMS, WebCT.

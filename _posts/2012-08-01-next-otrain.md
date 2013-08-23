@@ -4,6 +4,7 @@ title: Next OTrain
 category: projects
 tags: sidebar
 name: next-otrain
+thumb: /img/otrain-thumb.png
 ---
 
 A one-click solution to determine when Ottawa's O-Train is scheduled for its next arrival.

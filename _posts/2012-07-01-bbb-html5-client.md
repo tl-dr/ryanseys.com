@@ -4,6 +4,7 @@ title: BigBlueButton HTML5 Client
 category: projects
 tags: sidebar
 name: bbb-html5-client
+thumb: /img/bbb-thumb.png
 ---
 
 BigBlueButton web conferencing (rooms, whiteboard/slides, chat) all real-time in HTML5!

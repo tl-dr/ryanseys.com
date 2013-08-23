@@ -131,6 +131,18 @@ img {
   max-width:100%;
 }
 
+img.thumb {
+  margin:5px 0px 5px 0;
+  margin:5px 10px 5px 0;
+  float:left;
+  height:100px;
+  width:100px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -184,12 +196,26 @@ strong {
   padding:15px 10px 0 10px; /* top right bottom left */
 }
 
+#links {
+    position:fixed;
+  top:8px;
+  right:0;
+  float:right;
+}
+
 .expand-icon {
+  position:fixed;
+  top:8px;
+  right:0;
   float:right;
 }
 
 .phone {
   display:none;
+}
+
+.pure-menu.pure-menu-fixed.pure-menu-horizontal {
+  max-height:36px;
 }
 
 @media screen and (max-width: 400px) {
