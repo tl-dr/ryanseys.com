@@ -14,6 +14,17 @@ body {
   /*background: white url('/img/home2.jpg') no-repeat center;*/
 }
 
+img[alt=PhotoGPSThumb] {
+  margin:5px 10px 5px 0;
+  float:left;
+  height:100px;
+  width:100px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .pure-menu-heading {
   font-weight: bold;
 }
