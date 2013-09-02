@@ -67,6 +67,6 @@ If you have any questions regarding my personal experience at Mozilla, discuss t
 [john-gruen]: https://github.com/johngruen/ "John Gruen"
 [ryan-feeley]: http://ryanfeeley.com/ "Ryan Feeley"
 [air-moz-seys]: https://air.mozilla.org/intern-presentation-seys/ "Persona + WebRTC = <3"
-[hn-link]: # "Hacker News discussion"
+[hn-link]: https://news.ycombinator.com/item?id=6317851 "Hacker News discussion"
 [email]: mailto:ryan@ryanseys.com "Email me"
 [careers]: https://careers.mozilla.org/ "Mozilla Careers"
