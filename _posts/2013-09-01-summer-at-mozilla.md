@@ -12,7 +12,7 @@ As of writing this, I am currently on my flight back to Canada wrapping up my in
 ![MozillaandMe](/img/me-moz-sign.jpg)
 My internship specifically took place with the [Identity team][identity-blog], the good folks that bring you [Persona][persona]. I hacked on a new initiative to bring [authentication to WebRTC][webrtc-auth] in Firefox. In addition to this, I also hacked on Persona (more specifically, [browserid][browserid]) to support this new authentication module, allowing any website that uses Persona to seamlessly authenticate their users' WebRTC calls.
 
-During my time at Mozilla, I also built a WebRTC demonstration web app called [Tin Can][tincan-im] to showcase the importance of WebRTC auth. This app was such a hit with Mozilla and looked so damn polished thanks to a couple amazing [Identity][john-gruen] [designers][ryan-feeley] that it prematurely hit Hacker News and climbed to the front page due to shear awesomeness of what WebRTC + Persona means for the future of web calls.
+During my time at Mozilla, I also built a WebRTC demonstration web app called [Tin Can][tincan-im] to showcase the importance of WebRTC auth. This app was such a hit with Mozilla and looked so damn polished thanks to a couple amazing [Identity][john-gruen] [designers][ryan-feeley], it prematurely hit Hacker News and climbed to the front page due to shear awesomeness of what WebRTC + Persona means for the future of web calls.
 
 Unfortunately, Tin Can is not quite ready for public consumption so it was promptly taken down for now but like all Mozilla projects, it is open source so please contribute to this project by forking it on GitHub and send me some sexy pull requests. :)
 
