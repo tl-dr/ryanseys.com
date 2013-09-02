@@ -2,8 +2,11 @@
 layout: default
 root: true
 ---
-<small style="float:right; margin-top:5px;">{{ page.date | date:'%a %d %b %Y' }}</small>
+{% capture time %}{{ content | reading_time }}{% endcapture %}
+<small style="float:right; margin-top:2px;"><i>{{ time }} min read</i> &sdot; {{ page.date | date:'%a %d %b %Y' }}</small>
 <h3>{{ page.title }}</h3>
+
+<p></p>
 
 {{ content }}
 <!--{% include comments.html %}-->

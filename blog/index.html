@@ -7,7 +7,8 @@ categories: blog
 <div id="blog" style="padding-top:30px; margin-top:-23px;">
 {% assign blogposts = site.categories.blog %}
 {% for post in blogposts %}
-  <small style="float:right; margin-top:1px;">{{ post.date | date:'%a %d %b %Y' }}</small>
+  {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+  <small style="float:right; margin-top:1px;"><i>{{ time }} min read</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>

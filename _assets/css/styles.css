@@ -2,16 +2,14 @@
 *= require pure
 *= require pygment_trac
 *= require font-awesome
+*= require fonts
 */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 
 body {
   padding:15px 10px 0 10px; /* top right bottom left */
   line-height: 1.7em;
   font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#444;
-  /*background: white url('/img/home2.jpg') no-repeat center;*/
 }
 
 img[alt=PhotoGPSThumb] {
@@ -23,6 +21,20 @@ img[alt=PhotoGPSThumb] {
   -khtml-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+img[alt=MozillaandMe]{
+  margin:5px 10px 5px 0;
+  float:left;
+  width:121px;
+  height:162px;
+}
+
+img[alt=MozParis] {
+  margin:10px 0 2px 5px;
+  float:right;
+  width:122px;
+  height:122px;
 }
 
 .pure-menu-heading {
