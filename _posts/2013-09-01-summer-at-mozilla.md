@@ -42,7 +42,7 @@ It was quite the trip and I feel very privileged to be apart of it, but it was o
 
 ![MozParis](/img/moz-paris.jpg)
 
-Working at Mozilla wasn't work, it was long conversations over espresso with some abnormally smart people. It was whiteboards at 6pm that kept getting more detailed as the sun fell. It was morning conference calls that would span several different timezones and continents. Sounds like work right? Well, at Mozilla it certainly didn't feel like it. Now don't get me wrong, the Identity team gets shit done! They are some of the most productive people I've ever worked with, but they also know how to party!
+Working at Mozilla wasn't work, it was long conversations over espresso with some abnormally smart people. It was scribbling on whiteboards at 6pm that kept getting more detailed as the sun fell. It was morning conference calls that would span several different timezones and continents. Sounds like work right? Well, at Mozilla it certainly didn't feel like it. Now don't get me wrong, the Identity team gets shit done! They are some of the most productive people I've ever worked with, but they also know how to party!
 
 A hard day's work does not go unnoticed or unrewarded at Mozilla. The work-life balance, also known more formally as MFBT, is something that is not an after-thought, it's your right as a Mozillian (after your patches land and pull requests are merged of course).
 
