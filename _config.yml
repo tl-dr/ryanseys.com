@@ -18,8 +18,8 @@ assets:
   sources:
     - _assets/css
     - _assets/js
-  debug: true
+  debug: false
 
 html-compress:
   exclude: {}
-  debug: true
+  debug: false
