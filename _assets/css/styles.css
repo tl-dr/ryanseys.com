@@ -42,7 +42,6 @@ img[alt=MozParis] {
 }
 
 .footer {
-  /*position:absolute;*/
   bottom:0;
   left:0;
   float:left;
@@ -50,9 +49,8 @@ img[alt=MozParis] {
   margin:0;
   padding:0;
   width:100%;
-
   text-align: center;
-  /*border:1px solid #e5e5e5;*/
+  font-size:12pt;
 }
 
 .footer a {
