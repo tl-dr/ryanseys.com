@@ -1,0 +1,3 @@
+[submodule "photogps"]
+	path = photogps
+	url = git@github.com:ryanseys/photogps.git
