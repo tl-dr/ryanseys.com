@@ -22,7 +22,7 @@ You can learn more about the details of what I did by watching [this screencast]
 
 Mozilla flew me out from Ottawa, my homebase, to San Francisco, CA! Having never been to California before, what an adventure it was and has been! Now those from San Francisco warned me about the weather in the "summer" here, but you just can't beat the lack of humidity in SF.
 
-In Canada (Ottawa at least), contrary to popular belief, we do have hot summers and damn are they ever humid. It was a nice change to spend my summer in jeans and a hoodie. Plus, if the fog ever got me down, I'd just hop on the Caltrain and head down to the Mountain View office for the day. I also went to France! But more on that later!
+In Canada (Ottawa at least), contrary to popular belief, we do have hot summers and boy are they ever humid. It was a nice change to spend my summer in jeans and a hoodie. Plus, if the fog ever got me down, I'd just hop on the Caltrain and head down to the Mountain View office for the day. I also went to France! But more on that later!
 
 Mozilla provided us SF interns with housing just a 6 minute **walk** from their San Francisco office. This may have been so we stayed at the office longer, but who wouldn't want to stay in the office when it provides you with free snacks and drinks, and a view that just cannot be beat.
 
