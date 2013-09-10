@@ -32,7 +32,7 @@ Which brings me to my next point...
 
 ### 3. The perks were awesome
 
-Interns at Mozilla, myself included, are spoiled-fucking-rotten. Competitive pay, free travel/housing, free snacks/drinks and catered lunches every week were really just icing on the massive cake that was my internship!
+Interns at Mozilla, myself included, are truly spoiled rotten. Competitive pay, free travel/housing, free snacks/drinks and catered lunches every week were really just icing on the massive cake that was my internship!
 
 Oh, and did I mention that Mozilla also sent me to **Paris, France?!** Yeah, it happened. For my final working week, myself and a handful of the Identity team met up in the Paris office and hacked on Persona, and ate... and drank... a lot!
 
@@ -42,9 +42,9 @@ It was quite the trip and I feel very privileged to be apart of it, but it was o
 
 ![MozParis](/img/moz-paris.jpg)
 
-Working at Mozilla wasn't work, it was long conversations over espresso with some abnormally smart people. It was scribbling on whiteboards at 6pm that kept getting more detailed as the sun fell. It was morning conference calls that would span several different timezones and continents. Sounds like work right? Well, at Mozilla it certainly didn't feel like it. Now don't get me wrong, the Identity team gets shit done! They are some of the most productive people I've ever worked with, but they also know how to party!
+Working at Mozilla wasn't work, it was long conversations over espresso with some abnormally smart people. It was scribbling on whiteboards at 6pm that kept getting more detailed as the sun fell. It was morning conference calls that would span several different timezones and continents. Sounds like work right? Well, at Mozilla it certainly didn't feel like it. Now don't get me wrong, the Identity team is composed of some of the most productive people I've ever worked with, but they also know how to party!
 
-A hard day's work does not go unnoticed or unrewarded at Mozilla. The work-life balance, also known more formally as MFBT, is something that is not an after-thought, it's your right as a Mozillian (after your patches land and pull requests are merged of course).
+A hard day's work does not go unnoticed or unrewarded at Mozilla. The work-life balance is something that is not an after-thought, it's your right as a Mozillian (after your patches land and pull requests are merged of course).
 
 ### Summary
 
