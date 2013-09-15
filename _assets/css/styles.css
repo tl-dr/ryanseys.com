@@ -37,6 +37,12 @@ img[alt=MozParis] {
   height:122px;
 }
 
+img[alt=HabitBook] {
+  margin:5px 10px 0 0;
+  float:left;
+  width:70px;
+}
+
 .pure-menu-heading {
   font-weight: bold;
 }
