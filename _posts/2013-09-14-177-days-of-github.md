@@ -87,4 +87,4 @@ Happy contributing! [Follow me][ryanseys-gh] on GitHub! :) [Discuss][hn-link] on
 [ch-habits]: /img/ch_habit.gif "Calvin and Hobbes - Bill Watterson"
 [power-o-habit]: http://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289 "The Power of Habit"
 [habit-book]: /img/habit-book.png "The Power of Habit"
-[hn-link]: # "Hacker News discussion"
+[hn-link]: https://news.ycombinator.com/item?id=6389019 "Hacker News discussion"
