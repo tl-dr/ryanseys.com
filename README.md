@@ -11,6 +11,6 @@ $ bundle install
 ### Run locally
 
 ```
-$ jekyll --server
+$ jekyll server --watch
 $ open http://localhost:4000
 ```
