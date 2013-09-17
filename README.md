@@ -12,5 +12,5 @@ $ bundle install
 
 ```
 $ jekyll server --watch
-$ open http://localhost:4000
+$ open http://127.0.0.1:4000
 ```
