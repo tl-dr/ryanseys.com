@@ -55,7 +55,7 @@ Mozilla had their fair share of internal competition as well, including Shuhao w
 
 ### 150 Days
 
-There reached a point where my motivation to keep the streak going took a nose-dive. I contribute this to a lack of ideas, a drive for a fresh challenge, and the realization of the inevitability that my streak would eventually end. All this combined with the fact was that there was just too many ways to "cheat" the system, like [this guy][shameful] did, and thus the challenge started to turn into a chore.
+There reached a point where my motivation to keep the streak going took a nose-dive. I attribute this to a lack of ideas, a drive for a fresh challenge, and the realization of the inevitability that my streak would eventually end. All this combined with the fact was that there was just too many ways to "cheat" the system, like [this guy][shameful] did, and thus the challenge started to turn into a chore.
 
 I wanted to escape. I wanted time to refresh and forget about GitHub for just a little bit. I just wanted to be free to think about new ideas and not worry about making that commit just for the sake of it. I decided to end the streak on a nice round number. I decided to continue until 200 days were reached and then I would graciously sit back and watch the streak come crumbling down.
 

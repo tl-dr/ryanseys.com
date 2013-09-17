@@ -17,13 +17,3 @@ function toggleMenu() {
     links.className = "show-phone";
   }
 }
-
-(function() {
-  var lnx = document.links;
-  for (var i = 0, linksLength = lnx.length; i < linksLength; i++) {
-    if (lnx[i].hostname != window.location.hostname) {
-      lnx[i].target = '_blank';
-    }
-    console.log('woo');
-  }
-})();
