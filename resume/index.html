@@ -2,8 +2,10 @@
 layout: none
 title: Resume
 categories: resume
+sitemap:
+  priority: 1.0
+  changefreq: weekly
 ---
-
 {% assign pages = site.tags.resume %}
 {% for page in pages %}
     {% stylesheet resume %}
