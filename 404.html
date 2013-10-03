@@ -19,21 +19,21 @@
 
   function load() {
     setTimeout(function() {
-      window.location = "http://ryanseys.com";
+      window.location = 'https://ryanseys.com';
     }, t*1000);
     countdown();
   }
 
   function countdown() {
-    document.getElementById("attempt").innerHTML = "Attempting to redirect in " + t + "...";
-    if(t != 0) {
-      setTimeout('countdown(t-1)', 1000);
+    document.getElementById('attempt').innerHTML = 'Attempting to redirect in " + t + "...';
+    if(t !== 0) {
+      setTimeout(countdown(t-1), 1000);
     }
     t--;
   }
   </script>
-  <body style="text-align:center;" onload="load()">
-    <code style="margin-bottom:5px">404! FILE NOT FOUND! </code>
+  <body style="text-align:center;" onload="load();">
+    <code style="margin-bottom:5px">404! FILE NOT FOUND!&nbsp;</code>
     <img src="/img/404.gif" />
     <br />
     <code id="attempt"></code>
