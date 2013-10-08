@@ -9,8 +9,9 @@ layout: nil
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod %}
       <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% else %}
+      {% elseif post.date %}
       <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
       {% endif %}
       {% if post.sitemap %}
         {% if post.sitemap.changefreq %}
