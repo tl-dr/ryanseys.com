@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Refresh" content="3; url=https://ryanseys.com/" />
     <title>Oops! 404!</title>
   </head>
   <style>
@@ -12,30 +13,13 @@
       height: 70px;
       margin-top: -35px; /* Half the height */
       margin-left: -400px; /* Half the width */
+      font-style:;
     }
   </style>
-  <script>
-  var t = 3; //redirect in this many seconds
-
-  function load() {
-    setTimeout(function() {
-      window.location = 'https://ryanseys.com';
-    }, t*1000);
-    countdown();
-  }
-
-  function countdown() {
-    document.getElementById('attempt').innerHTML = 'Attempting to redirect in " + t + "...';
-    if(t !== 0) {
-      setTimeout(countdown(t-1), 1000);
-    }
-    t--;
-  }
-  </script>
   <body style="text-align:center;" onload="load();">
     <code style="margin-bottom:5px">404! FILE NOT FOUND!&nbsp;</code>
     <img src="/img/404.gif" />
     <br />
-    <code id="attempt"></code>
+    <code>Click <a href='https://ryanseys.com/'>here</a> if you are not automatically redirected...</code>
   </body>
 </html>
