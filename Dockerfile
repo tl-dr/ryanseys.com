@@ -9,6 +9,6 @@ RUN apt-get install -y nodejs
 RUN gem install bundler
 ADD . /src
 RUN cd /src; bundle install
-RUN LANG="en_US.UTF-8"
-RUN LC_ALL="en_US.UTF-8"
-RUN cd /src; bundle exec jekyll --version; bundle exec jekyll build
+RUN locale-gen en_US.UTF-8
+RUN update-locale LANG=en_US.UTF-8
+RUN cd /src; su bundle exec jekyll build
