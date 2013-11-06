@@ -11,4 +11,4 @@ ADD . /src
 RUN cd /src; bundle install
 RUN locale-gen en_US.UTF-8
 RUN update-locale LANG=en_US.UTF-8
-RUN cd /src; su bundle exec jekyll build
+RUN cd /src; su jekyll build
