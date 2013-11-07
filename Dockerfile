@@ -9,3 +9,4 @@ RUN gem install bundler
 ADD . /src
 RUN locale-gen en_US.UTF-8 && update-locale LANG=en_US.UTF-8
 RUN cd /src; bundle install; su -c "jekyll build"
+CMD ["/bin/bash"]
