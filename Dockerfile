@@ -7,5 +7,6 @@ RUN apt-get install -y build-essential python-software-properties python g++ mak
 RUN add-apt-repository ppa:chris-lea/node.js && apt-get update && apt-get install -y nodejs
 RUN gem install bundler
 RUN locale-gen en_US.UTF-8 && update-locale LANG=en_US.UTF-8
-RUN bundle install; su -c "jekyll build"
+ADD . /src
+RUN cd /src && bundle install; su -c "jekyll build"
 CMD ["/bin/bash"]
