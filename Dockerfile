@@ -6,7 +6,6 @@ RUN apt-get upgrade -y
 RUN apt-get install -y build-essential python-software-properties python g++ make software-properties-common default-jre ruby1.9.1-full
 RUN add-apt-repository ppa:chris-lea/node.js && apt-get update && apt-get install -y nodejs
 RUN gem install bundler
-ADD . /src
 RUN locale-gen en_US.UTF-8 && update-locale LANG=en_US.UTF-8
-RUN cd /src; bundle install; su -c "jekyll build"
+RUN bundle install; su -c "jekyll build"
 CMD ["/bin/bash"]
