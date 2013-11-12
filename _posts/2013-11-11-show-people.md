@@ -29,7 +29,7 @@ Showing should be seen as an extension of "Do things, tell people." You should c
 
 I challenge you to show someone something today. Whether it be a new lifehack you've recently learned, a side-project you're "almost done", or even that new recipe you've been dying to try. Just *show people*.
 
-[Follow me][twitter] on Twitter :) Email me at [ryan@ryanseys.com][email]
+[Follow me][twitter] on Twitter :) Email me at [ryan@ryanseys.com][email] or [Discuss on HN][hnlink]
 
 <small>Disclaimer: Please don't take my advice too far and get yourself arrested for indecent exposure.</small>
 
@@ -40,3 +40,4 @@ I challenge you to show someone something today. Whether it be a new lifehack yo
 [shopify]: https://shopify.com "Shopify"
 [email]: mailto:ryan@ryanseys.com "Email me"
 [do-tell]: http://carl.flax.ie/dothingstellpeople.html
+[hnlink]: https://news.ycombinator.com/item?id=6721553
