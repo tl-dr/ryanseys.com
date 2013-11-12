@@ -29,6 +29,18 @@ img[alt=MozillaandMe]{
   height:162px;
 }
 
+img[alt=ShowAndTell]{
+  margin:5px 10px 5px 0;
+  float:left;
+  width:262px;
+}
+
+img[alt=WinFriends]{
+  margin:5px 10px 0 0;
+  float:left;
+  width:80px;
+}
+
 img[alt=MozParis] {
   margin:10px 0 2px 5px;
   float:right;
