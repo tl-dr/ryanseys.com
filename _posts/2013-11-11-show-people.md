@@ -7,7 +7,7 @@ name: show-people
 
 *"The truth is generally seen, rarely heard."* &mdash; Baltazar Gracián (1601-1658)
 
-Recently I’ve been thinking about [Shopify][shopify]'s mantra "**Do things, tell people**" and it makes me wonder more about what catalyzes success. [Here][do-tell] it is discussed that these two things are all it takes to be successful. But I have to ponder, is it _doing stuff_ that helps people be successful the most? Or is it _telling people_ about the things you do that inevitably has the most impact? I have come to reason that of those two, what is most often overlooked is telling people. But it still might not be enough.<!-- truncate_here -->
+Recently I’ve been thinking about [Shopify][shopify]'s mantra "**Do things, tell people**" and it makes me wonder more about what catalyzes success. [Here][do-tell] it is discussed that these two things are all it takes to be successful. But I have to ponder, is it simply _doing stuff_ that has the largest impact on success? Or is it _telling people_ about the things you do that is more impactful? I have come to reason that of those two, what is most often overlooked is telling people. But it still might not be enough.<!-- truncate_here -->
 
 ![ShowAndTell](/img/show-and-tell.png)
 
@@ -19,7 +19,7 @@ Showing involves both doing stuff, i.e. making the stuff you want to show, and t
 
 ### Show to Persuade
 
-Showing people is also a very strong way to persuade people to your point of view. For example, rather than simply telling someone they should do something a certain way because it may be more efficient, instead show them that it's more efficient by doing it. If it actually is more efficient, they will naturally follow by example. They may not even realize it and think they decided all themselves. Law #9 from the book [48 Laws of Power][48-laws-book] is **Win through your actions, never through argument**. This law makes a great point that showing people through example as a way to prove your ideas to them rather than simply telling them or arguing your point of view can be much more effective. "Demonstrate, do not explicate."
+Showing people is also a very strong way to persuade people to your point of view. For example, rather than telling someone they should do something because it's more efficient, show them. Show them by doing, and if it actually is more efficient, they will naturally follow by example. They may not even realize it and think they decided all themselves. Law #9 from the book [48 Laws of Power][48-laws-book] is **Win through your actions, never through argument**. A great point is made with this law: showing people through example is much more effective than simply telling them or arguing your point of view. "Demonstrate, do not explicate."
 
 Showing should be seen as an extension of "Do things, tell people." You should continue to do things, tell people, but also show people. Show people why they should use your product. Show people why they should help you. Tell people why by showing them why.
 
