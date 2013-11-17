@@ -5,14 +5,6 @@ end
 
 source 'https://rubygems.org'
 
-gem 'jekyll',     '=1.2.1'
-gem 'liquid',     '=2.5.3'
-gem 'redcarpet',  '=2.3.0'
-gem 'maruku',     '=0.6.1'
-gem 'rdiscount',  '=1.6.8'
-gem 'RedCloth',   '=4.2.9'
-gem 'jekyll-assets'
-gem 'uglifier'
-gem 'yui-compressor'
-gem 'nokogiri'
-gem 'squishy'
+gem 'jekyll',         '=1.3.0'
+gem 'jekyll-assets',  '=0.7.4'
+gem 'jekyll-press',   '=0.2.1'
