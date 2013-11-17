@@ -11,15 +11,10 @@ exclude:
 - params.json
 - Gemfile
 - Gemfile.lock
+- vendor
 
 assets:
-  js_compressor:  uglifier
-  css_compressor: yui
   sources:
     - _assets/css
     - _assets/js
-  debug: false
-
-html-compress:
-  exclude: {}
   debug: false
