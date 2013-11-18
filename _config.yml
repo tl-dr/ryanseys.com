@@ -12,6 +12,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - vendor
+- config.ru
 
 assets:
   sources:
