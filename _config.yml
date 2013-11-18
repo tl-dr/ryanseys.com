@@ -13,6 +13,8 @@ exclude:
 - Gemfile.lock
 - vendor
 - config.ru
+- Procfile
+- Dockerfile
 
 assets:
   sources:
