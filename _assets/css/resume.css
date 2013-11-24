@@ -4,9 +4,9 @@
 }
 
 #about th {
-  font-size:11pt;
-  font-weight: bold;
   margin-bottom:2px;
+  font-weight: bold;
+  font-size:11pt;
 }
 
 #about ul {
@@ -15,61 +15,57 @@
 
 body {
   padding:15px;
-  font:12pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#444;
+  font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.7em;
 }
 
 h4 {
-  font-variant:small-caps;
   margin-top: 4px;
   margin-bottom: 12px;
   color: black;
+  font-variant:small-caps;
 }
 
 #titlename {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: -1;
-  font-variant: small-caps;
   position: relative;
   top: 50px;
+  z-index: -1;
   margin-top: -48px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-variant: small-caps;
 }
 
 .go_right {
   float:right;
 }
 
-/*.resumelinks {
-  position: relative;
-  top:-20px;
-}*/
-
 /* Last column of job/school details */
 tr th:nth-child(3) {
-  text-align: right;
   width:40%;
+  text-align: right;
 }
 
 /* Middle column of job/school details */
 tr th:nth-child(2) {
-  text-align: center;
   width:30%;
+  text-align: center;
 }
 
 /* First column of job/school details */
 tr th:nth-child(1) {
-  text-align: left;
   margin-left: 0px;
   padding-left: 0px;
   width:35%;
+  text-align: left;
 }
 
 th {
   padding-top: 0px;
-  padding-left: 0px;
   padding-right: 0px;
+  padding-left: 0px;
   border-bottom: none;
   color: black;
 }
@@ -89,16 +85,16 @@ th {
 }
 
 #about ul {
+  margin-bottom: 0px;
   padding-top: 2px;
   padding-bottom:0px;
-  margin-bottom: 0px;
 }
 
 #about ul li {
-  margin-left: -15px;
   margin-top: -2px;
-  font-size: 11pt;
   margin-bottom: 0px;
+  margin-left: -15px;
+  font-size: 11pt;
 }
 
 #about a {
@@ -106,20 +102,20 @@ th {
 }
 
 #about th a {
-  font-weight: bold;
   color: black;
+  font-weight: bold;
 }
 
 #about strong a {
-  font-weight: bold;
   color:#222;
+  font-weight: bold;
 }
 
 .nobullets {
-  list-style:none;
-  list-style-position:outside;
-  padding-left:20;
   margin-left:0;
+  padding-left:20;
+  list-style:none;
+  /*list-style-position:outside;*/
 }
 
 .go_right.top_link {
@@ -136,30 +132,41 @@ th {
   font-size:12pt;
 }
 
-.top_link {
-  position: relative;
-  top:-42px;
+thead {
+  margin-bottom: 5px;
 }
 
+.resumelinks a:nth-child(2) {
+    display: inline-block;
+}
+
+
+/*@media screen and (min-width: 502px) {
+.resumelinks a:nth-child(2) {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 501px) {
+
+}
+*/
 @media screen and (max-width: 500px) {
 
+  tr th:nth-child(1) {
+    display:none;
+  }
+
+  tr th:nth-child(3) {
+    display:none;
+  }
+
   .resumelinks {
-    clear:both;
-    text-align: center;
-    display: block;
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: inherit;
+    display:none;
   }
 
   #titlename {
     top: 0px;
     margin-top: -10px;
   }
-
-  .go_right {
-    float:none;
-  }
-
 }

@@ -1,5 +1,4 @@
 /*
-*= require pure
 *= require pygment_trac
 *= require font-awesome
 */
@@ -14,25 +13,44 @@ body {
   line-height: 1.7em;
 }
 
-img[alt=PhotoGPSThumb] {
-  float:left;
-  margin:5px 10px 5px 0;
-  width:100px;
-  height:100px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -khtml-border-radius: 10px;
+header {
+  max-height:36px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-top: 1px solid #aaa;
-  border-top: 1px solid rgba(0,0,0,0.1);
-  background-color: white;
+.header-links {
+  position:fixed;
+  top: 11px;
+  float: right;
+}
+
+.header-links div {
+  float:right;
+}
+
+.header-links li a {
+  color: #444;
+  text-transform: uppercase;
+}
+
+.header-name {
+  position:fixed;
+  top: 11px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-links li {
+  display: inline-block;
+  padding-left: 18px;
+  text-decoration: capitalize;
+}
+
+.header-links li a:hover,
+.header-links li a:focus {
+  border: none;
+  background: none;
+  color: #aaa;
 }
 
 .name {
@@ -52,53 +70,35 @@ footer {
   text-align: center;
 }
 
-.wrapper {
-  margin-bottom: 65px;
-}
-
-footer p {
-  margin: 11px;
-}
-
-.header-links li a {
-  text-transform: uppercase;
-}
-
 .links span {
   padding: 15px;
   font-size: 22pt;
 }
 
-img[alt=MozillaandMe]{
-  float:left;
-  margin:5px 10px 5px 0;
-  width:121px;
-  height:162px;
+.links span a {
+  color: #444;
 }
 
-img[alt=ShowAndTell]{
-  float:left;
-  margin:5px 10px 5px 0;
-  width:262px;
+.links span a:hover {
+  color: #aaa;
 }
 
-img[alt=WinFriends]{
-  float:left;
-  margin:5px 10px 0 0;
-  width:80px;
+.wrapper {
+  margin-bottom: 65px;
 }
 
-img[alt=MozParis] {
-  float:right;
-  margin:10px 0 2px 5px;
-  width:122px;
-  height:122px;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #aaa;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background-color: white;
 }
 
-img[alt=HabitBook] {
-  float:left;
-  margin:5px 10px 0 0;
-  width:70px;
+footer p {
+  margin: 11px;
 }
 
 .footer {
@@ -120,15 +120,6 @@ img[alt=HabitBook] {
   text-decoration:none;
 }
 
-.links span a {
-  /*text-decoration: none;*/
-  color: #444;
-}
-
-.links span a:hover {
-  /*text-decoration: underline;*/
-  color: #aaa;
-}
 
 h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
@@ -224,28 +215,13 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-img {
-  max-width:100%;
-}
-
-.thumb {
-  float:left;
-  margin:5px 10px 5px 0;
-  width:100px;
-  height:100px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -khtml-border-radius: 10px;
-}
-
 strong {
   color:#222;
   font-weight:700;
 }
 
 .circular {
-  float:left;
+  /*float:left;*/
   margin-right:auto;
   margin-bottom:10px;
   margin-left:auto;
@@ -264,13 +240,6 @@ strong {
   cursor: pointer;
 }
 
-.header-links li a:hover,
-.header-links li a:focus {
-  border: none;
-  background: none;
-  color: #aaa;
-}
-
 .bg {
   position: fixed;
   top: 0;
@@ -283,10 +252,6 @@ strong {
   background-color: white;
 }
 
-.header-links {
-  float: right;
-}
-
 .content {
   margin:0;
   margin-top:36px;
@@ -294,22 +259,6 @@ strong {
   margin-left: auto;
   padding:15px 10px 0 10px; /* top right bottom left */
   max-width: 900px;
-}
-
-.header-links li a {
-  color: #444;
-}
-
-.header-name {
-  position:fixed;
-  top: 11px;
-  color: #444;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.header-links div {
-  float:right;
 }
 
 .expand-icon a {
@@ -332,23 +281,62 @@ strong {
   width: 270px;
 }
 
-.floatcontainer, .inn{
-
+img {
+  max-width:100%;
 }
 
-.header-links {
-  position:fixed;
-  top: 11px;
+.thumb {
+  float:left;
+  margin:5px 10px 5px 0;
+  width:100px;
+  height:100px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
 }
 
-.header-links li {
-  display: inline-block;
-  padding-left: 18px;
-  text-decoration: capitalize;
+img[alt=MozillaandMe]{
+  float:left;
+  margin:5px 10px 5px 0;
+  width:121px;
+  height:162px;
 }
 
-header {
-  max-height:36px;
+img[alt=ShowAndTell]{
+  float:left;
+  margin:5px 10px 5px 0;
+  width:262px;
+}
+
+img[alt=WinFriends]{
+  float:left;
+  margin:5px 10px 0 0;
+  width:80px;
+}
+
+img[alt=MozParis] {
+  float:right;
+  margin:10px 0 2px 5px;
+  width:122px;
+  height:122px;
+}
+
+img[alt=HabitBook] {
+  float:left;
+  margin:5px 10px 0 0;
+  width:70px;
+}
+
+img[alt=PhotoGPSThumb] {
+  float:left;
+  margin:5px 10px 5px 0;
+  width:100px;
+  height:100px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
 }
 
 @media screen and (max-width: 360px) {
