@@ -8,7 +8,7 @@ name: building-photogps
 
 [PhotoGPS][app] is a simple and fast web app you can use to instantly plot your photos on Google Maps, based on where they were taken.
 
-It does this by extracting the GPS location (latitude & longitude) from the Exif metadata within the photo itself, and then using Google Maps API to display exactly where this is in the world.<!-- truncate_here --> In modern browsers, there exists an API for reading files directly in the browser. This API is called [FileReader][api] and it is what PhotoGPS uses to read your images directly, without first uploading them to the cloud. This keeps your data completely private from any server, while speeding up the extraction and plotting process significantly. You can plot literally 1000 photos in less than a minute.
+It does this by extracting the GPS location (latitude & longitude) from the Exif metadata within the photo itself, and then using Google Maps API to display exactly where this is in the world.<!-- end_excerpt --> In modern browsers, there exists an API for reading files directly in the browser. This API is called [FileReader][api] and it is what PhotoGPS uses to read your images directly, without first uploading them to the cloud. This keeps your data completely private from any server, while speeding up the extraction and plotting process significantly. You can plot literally 1000 photos in less than a minute.
 
 ![PhotoGPS][pic]
 
@@ -116,7 +116,7 @@ Keep on discovering!
 
 - - -
 
-[app][app] &mdash; [code][code] &mdash; [discuss][hn]
+[app][app] &sdot; [code][code] &sdot; [discuss][hn]
 
 [app]: http://ryanseys.github.io/photogps/
 [code]: https://github.com/ryanseys/photogps

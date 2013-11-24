@@ -5,7 +5,9 @@ categories: blog
 name: summer-at-mozilla
 ---
 
-As of writing this, I am currently on my flight back to Canada wrapping up my internship at [Mozilla][mozilla] for the summer. I just wanted to take this time to reflect on my experience working there and why Mozilla has been a truly life-altering experience! Overall it was **AWESOME**, but WHY, you ask? Well keep reading there cap'n, and I'll tell ya!<!-- truncate_here -->
+As of writing this, I am currently on my flight back to Canada wrapping up my internship at [Mozilla][mozilla] for the summer. I just wanted to take this time to reflect on my experience working there and why Mozilla has been a truly life-altering experience! Overall it was **AWESOME**, but WHY, you ask? Well keep reading there cap'n, and I'll tell ya!
+
+<!-- end_excerpt -->
 
 ### 1. The projects were awesome
 

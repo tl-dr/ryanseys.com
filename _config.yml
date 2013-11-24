@@ -5,7 +5,9 @@ permalink: /:categories/:title
 url: https://ryanseys.com
 markdown: maruku
 port: 4000
+encoding: UTF-8
 future: false
+excerpt_separator: "<!-- end_excerpt -->"
 exclude:
 - README.md
 - params.json
@@ -20,4 +22,4 @@ assets:
   sources:
     - _assets/css
     - _assets/js
-  debug: false
+  debug: true

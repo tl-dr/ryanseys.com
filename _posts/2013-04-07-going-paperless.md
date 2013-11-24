@@ -5,8 +5,10 @@ categories: blog
 name: going-paperless
 ---
 
-I was inspired today by a [Lifehacker post][post] to go paperless. I am in the midst of decluttering my life in preparation for moving, and with a large box full of documents laying around, I thought this would make the perfect day project.<!-- truncate_here --> One large problem about going paperless is that you still need the information on the paper you currently have laying around; it's not as easy as simply throwing it all out. But with a good scanner, one may hope to turn that box of documents into a neatly organized folder of PDFs, fully indexed and searchable.
+I was inspired today by a [Lifehacker post][post] to go paperless. I am in the midst of decluttering my life in preparation for moving, and with a large box full of documents laying around, I thought this would make the perfect day project.<!-- end_excerpt -->
 
+
+One large problem about going paperless is that you still need the information on the paper you currently have laying around; it's not as easy as simply throwing it all out. But with a good scanner, one may hope to turn that box of documents into a neatly organized folder of PDFs, fully indexed and searchable.
 
 That is the ideal world of course. It is much more easily said than done, and I'd need to be efficient about it if I wanted to succeed in turning a whole box of documents into digital files without spending an eternity of time and effort. So I spent money instead, went to the local Staples and purchased myself a [Fujitsu ScanSnap iX500][ix500], inspired by the Lifehacker post as well as numerous YouTube videos showing it in action, to what I would hope would be as smooth a process as they display.
 

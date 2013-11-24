@@ -1,0 +1,15 @@
+---
+layout: default
+title: About
+categories: about
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+---
+
+<div id="about">
+{% stylesheet resume %}
+{% for post in site.categories.about %}
+  {{ post.content }}
+{% endfor %}
+</div>

@@ -10,6 +10,7 @@ _gaq.push(['_trackPageview']);
 })();
 
 function toggleMenu() {
+  var links = document.getElementById('links');
   if(links.className == 'show-phone') {
     links.className = 'hidden-phone';
   }

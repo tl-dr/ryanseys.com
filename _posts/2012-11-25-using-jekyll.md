@@ -7,7 +7,9 @@ name: using-jekyll
 
 In the last couple days, I fired up this personal website for myself to showcase some of the projects I have been working on as well as to get even MORE experience developing for the web. I wanted something simple and static, nothing too fancy, something I could understand inside and out just in case I ever needed to make a modification. I wanted something that I could use to create content when I needed and to get things up fast! Gone are the days writing raw HTML.
 
-Hello, [Jekyll][jekyll].<!-- truncate_here -->
+Hello, [Jekyll][jekyll].
+
+<!-- end_excerpt -->
 
 Using [Github Pages][pages], I was able to get a site up and running in no time flat. Now, mind you, I've been making a steady sleuth of changes over the past couple days to modularize everything, but I think I've got the structure nearly down to a T.
 

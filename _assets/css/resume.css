@@ -1,15 +1,15 @@
-hr {
+#about hr {
   margin-top:-14px;
   margin-bottom:2px;
 }
 
-th {
+#about th {
   font-size:11pt;
   font-weight: bold;
   margin-bottom:2px;
 }
 
-ul {
+#about ul {
   margin:2px 0 20px;
 }
 
@@ -27,16 +27,24 @@ h4 {
 }
 
 #titlename {
-  text-align:center;
-  margin-top:-40px;
-  margin-left:160px;
-  margin-bottom:25px;
-  font-variant:small-caps;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  font-variant: small-caps;
+  position: relative;
+  top: 50px;
+  margin-top: -48px;
 }
 
 .go_right {
   float:right;
 }
+
+/*.resumelinks {
+  position: relative;
+  top:-20px;
+}*/
 
 /* Last column of job/school details */
 tr th:nth-child(3) {
@@ -80,29 +88,29 @@ th {
   font-weight:400;
 }
 
-ul {
+#about ul {
   padding-top: 2px;
   padding-bottom:0px;
   margin-bottom: 0px;
 }
 
-ul li {
+#about ul li {
   margin-left: -15px;
   margin-top: -2px;
   font-size: 11pt;
   margin-bottom: 0px;
 }
 
-a {
+#about a {
   color: #444;
 }
 
-th a {
+#about th a {
   font-weight: bold;
   color: black;
 }
 
-strong a {
+#about strong a {
   font-weight: bold;
   color:#222;
 }
@@ -114,11 +122,44 @@ strong a {
   margin-left:0;
 }
 
-table {
+.go_right.top_link {
+  position: relative;
+  top: -48px;
+}
+
+#about table {
   margin-bottom:-10px;
 }
 
-p {
+#about p {
   margin-bottom: 4px;
   font-size:12pt;
+}
+
+.top_link {
+  position: relative;
+  top:-42px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .resumelinks {
+    clear:both;
+    text-align: center;
+    display: block;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+  }
+
+  #titlename {
+    top: 0px;
+    margin-top: -10px;
+  }
+
+  .go_right {
+    float:none;
+  }
+
 }

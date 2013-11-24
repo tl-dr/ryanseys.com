@@ -7,7 +7,9 @@ name: show-people
 
 *"The truth is generally seen, rarely heard."* &mdash; Baltazar Gracian (1601-1658)
 
-Recently I've been thinking about [Shopify][shopify]'s mantra "**Do things, tell people**" and it makes me wonder more about what catalyzes success. [Here][do-tell] it is discussed that these two things are all it takes to be successful. But I have to ponder, is it simply _doing stuff_ that has the largest impact on success? Or is it _telling people_ about the things you do that is more impactful? I have come to reason that of those two, what is most often overlooked is telling people. But it still might not be enough.<!-- truncate_here -->
+Recently I've been thinking about [Shopify][shopify]'s mantra "**Do things, tell people**" and it makes me wonder more about what catalyzes success. [Here][do-tell] it is discussed that these two things are all it takes to be successful. But I have to ponder, is it simply _doing stuff_ that has the largest impact on success? Or is it _telling people_ about the things you do that is more impactful? I have come to reason that of those two, what is most often overlooked is telling people. But it still might not be enough.
+
+<!-- end_excerpt -->
 
 ![ShowAndTell](/img/show-and-tell.png)
 

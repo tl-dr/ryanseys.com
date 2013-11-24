@@ -7,25 +7,24 @@ sitemap:
   changefreq: weekly
 ---
 
-<div id="blog" style="padding-top:30px; margin-top:-23px;">
+<div id="blog">
 {% assign blogposts = site.categories.blog %}
 {% for post in blogposts %}
   {% capture time %}{{ post.content | reading_time }}{% endcapture %}
-  <small style="float:right; margin-top:1px;"><i>{{ time }}</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
+  <small class='timeanddate' ><i>{{ time }}</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
-  {% assign truncated_post = post.content | split:"<!-- truncate_here -->" | first %}
-  {% if truncated_post != post.content %}
-  {{ truncated_post | append:".."}}
-  <a href="{{ post.url }}">
-    <p>Continue reading &rarr;</p>
-  </a>
+  {% if post.excerpt != post.content %}
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">
+      <p>Continue reading &rarr;</p>
+    </a>
   {% else %}
    {{ post.content }}
   {% endif %}
   {% if post != blogposts.last %}
-    <hr />
+    <hr style='margin-bottom:20px;' />
   {% endif %}
 {% endfor %}
 </div>

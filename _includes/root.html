@@ -1,5 +1,47 @@
-<div class="circular"></div>
+<!-- <div class="circular"></div> -->
+<div class='name'>RYAN SEYS</div>
+<div class='links'>
+  <span><a href='/blog'>BLOG</a></span>
+  <span><a href='/projects'>PROJECTS</a></span>
+  <span><a href='/about'>ABOUT</a></span>
+</div>
 <br />
+<div style='text-align:center;'>I love making things that <b>matter.</b></div>
+<hr style='margin-top:20px; padding-bottom:20px;' />
+{% assign posts = site.posts %}
+{% for post in posts %}
+  {% if post.categories contains 'about' %}
+  {% else %}
+  {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+  {% capture footer %}{{ post.content | split:"<!-- start_footer -->" | last }}{% endcapture %}
+  <small style="float:right; margin-top:1px;"><i>{{ time }}</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
+  <a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+  </a>
+  {% if post.thumb %}
+    <img src="{{ post.thumb }}" alt="" class="thumb">
+  {% endif %}
+  {% if post.excerpt != post.content %}
+    {{ post.excerpt }}
+    {% if footer != post.content %}
+      {{ footer }}
+    {% else %}
+      <a href="{{ post.url }}">
+        <p>Continue reading &rarr;</p>
+      </a>
+    {% endif %}
+  {% else %}
+     {{ post.content }}
+  {% endif %}
+  {% if post != posts.last %}
+    <hr style='margin-bottom:20px;' />
+  {% else %}
+    <br />
+  {% endif %}
+  {% endif %}
+{% endfor %}
+
+<!-- <br />
 <h3>About</h3>
 <p>
   I'm Ryan. I'm a software engineering undergrad at Carleton University, a passionate web developer and open-source advocate. I love to invent, build and <code>git push</code> on a regular basis. Some of my favourite things include caffeine, photography, and just thinking about stuff.
@@ -29,3 +71,4 @@
   Capturing brief moments in time with my camera and sharing them with the world.
 </p>
 <p><a href="https://secure.flickr.com/photos/ryanseys" target="_blank">Flick through my pics &rarr;</a></p>
+ -->

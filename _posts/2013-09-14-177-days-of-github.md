@@ -5,7 +5,9 @@ categories: blog
 name: 177-days-of-github
 ---
 
-This is the story of how I contributed to [GitHub][ryanseys-gh] for 177 consecutive days, nearly half a year. I will talk of why I did it and why you should too, or at least why you should do something similar. This is a story about accepting challenges, making habits, and knowing when to stop. I learned a lot through this, and I hope to teach you all something. Let's begin.<!-- truncate_here -->
+This is the story of how I contributed to [GitHub][ryanseys-gh] for 177 consecutive days, nearly half a year. I will talk of why I did it and why you should too, or at least why you should do something similar. This is a story about accepting challenges, making habits, and knowing when to stop. I learned a lot through this, and I hope to teach you all something. Let's begin.
+
+<!-- end_excerpt -->
 
 ![CH-Habits][ch-habits]
 <br />

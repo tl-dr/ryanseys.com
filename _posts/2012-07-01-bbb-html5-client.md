@@ -7,13 +7,13 @@ name: bbb-html5-client
 thumb: /img/bbb-thumb.png
 ---
 
-BigBlueButton web conferencing (rooms, whiteboard/slides, chat) all real-time in HTML5!
-
-[details][details] &mdash; [code][client]
-
-<!-- truncate_here -->
-
 BigBlueButton HTML5 Client is an experimental HTML5 port of BigBlueButton, an open source web conferencing system, which allows real-time web conferencing in the browser featuring (private) meeting rooms, whiteboard/slides, chat, and much more, now all in HTML5!
+
+{% comment %}
+[code][client] &mdash; [details][details]
+{% endcomment %}
+
+<!-- end_excerpt -->
 
 In the summer of 2012, I had the pleasure of working at [Blindside Networks][bsn], an Ottawa-based startup driving the BigBlueButton project. [BigBlueButton][bbb] is an open-source web conferencing system designed for distance education. It helps educators and students connect and communicate using voice & video, whiteboard/slides, and text chat, all real-time in the browser.
 
@@ -33,7 +33,9 @@ I did get the chance to fool around with adding audio/video support to the BigBl
 
 - - -
 
-[client code][client] &mdash; [webrtc code][webrtc]
+<!-- start_footer -->
+
+[code][client] &sdot; [details][details]
 
 [details]: /projects/bbb-html5-client
 [client]: https://github.com/bigbluebutton/bigbluebutton/tree/master/labs/bbb-html5-client
