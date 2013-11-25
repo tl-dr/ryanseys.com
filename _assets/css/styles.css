@@ -30,6 +30,9 @@ header {
 .header-links li a {
   color: #444;
   text-transform: uppercase;
+  font-family: 'Antic Slab';
+  font-weight: bold;
+  font-size: 12pt;
 }
 
 .header-name {
@@ -37,8 +40,9 @@ header {
   top: 11px;
   color: #444;
   text-transform: uppercase;
-  font-weight: bold;
   margin-left: 10px;
+  font-family: 'Antic Slab';
+  font-weight: bold;
 }
 
 .header-links li {
@@ -64,6 +68,12 @@ header {
 .timeanddate {
   float:right;
   margin-top: -2px;
+}
+
+.postinfo {
+  float:right;
+  margin-top:1px;
+  padding-left:5px;
 }
 
 .links {
@@ -120,6 +130,13 @@ footer p {
   padding-left: 5px;
   color:#444;
   text-decoration:none;
+}
+
+h3 {
+  font-family: 'Antic Slab';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 
