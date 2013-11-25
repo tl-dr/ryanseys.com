@@ -4,10 +4,11 @@ root: true
 ---
 
 {% capture time %}{{ content | reading_time }}{% endcapture %}
-<small style="float:right; margin-top:2px;"><i>{{ time }} min read</i> &sdot; {{ page.date | date:'%a %d %b %Y' }}</small>
+<small style="float:right; margin-top:0px;">{{ page.date | date:'%d %b %Y' }}</small>
 <h3>{{ page.title }}</h3>
-<p></p>
+<div style='clear:both;'>
 {{ content }}
+</div>
 <hr />
 
 {% include comments.html %}

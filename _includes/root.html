@@ -6,7 +6,7 @@
   <span><a href='/about'>ABOUT</a></span>
 </div>
 <br />
-<div style='text-align:center;'>I love making things that <b>matter.</b></div>
+<div style='text-align:center;'>I <b>make</b> things that make lives <b>easier.</b></div>
 <hr style='margin-top:20px; padding-bottom:20px;' />
 {% assign posts = site.posts %}
 {% for post in posts %}
@@ -14,7 +14,7 @@
   {% else %}
   {% capture time %}{{ post.content | reading_time }}{% endcapture %}
   {% capture footer %}{{ post.content | split:"<!-- start_footer -->" | last }}{% endcapture %}
-  <small style="float:right; margin-top:1px;"><i>{{ time }}</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
+  <small style="float:right; margin-top:-1px; padding-left:5px;"><i>{{ time }}</i> &sdot; {{ post.date | date:'%d %b %Y' }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
