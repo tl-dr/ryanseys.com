@@ -22,4 +22,4 @@ assets:
   sources:
     - _assets/css
     - _assets/js
-  debug: true
+  debug: false

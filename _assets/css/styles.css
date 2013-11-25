@@ -56,9 +56,8 @@ header {
 
 .name {
   text-align: center;
-  text-shadow: 2px 2px #969696;
   font-size: 72pt;
-  font-family: 'Antic Slab', serif;
+  font-family: 'Antic Slab', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
   line-height: 1.2;
 }
 
