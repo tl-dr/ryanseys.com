@@ -12,9 +12,9 @@
 {% for post in posts %}
   {% if post.categories contains 'about' %}
   {% else %}
-  {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+  <!-- {% capture time %}{{ post.content | reading_time }}{% endcapture %} -->
   {% capture footer %}{{ post.content | split:"<!-- start_footer -->" | last }}{% endcapture %}
-  <small class='postinfo'><i>{{ time }}</i> &sdot; {{ post.date | date:'%d %b %Y' }}</small>
+  <small class='postinfo'>{{ post.date | date:'%d %b %Y' }}</small>
   <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
   </a>
