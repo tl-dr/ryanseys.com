@@ -10,9 +10,8 @@ sitemap:
 <div id="projects">
   {% assign projects = site.categories.projects %}
   {% for post in projects %}
-    {% capture time %}{{ post.content | reading_time }}{% endcapture %}
     {% capture footer %}{{ post.content | split:"<!-- start_footer -->" | last }}{% endcapture %}
-    <small class='timeanddate'><i>{{ time }}</i> &sdot; {{ post.date | date:'%a %d %b %Y' }}</small>
+    <small class='timeanddate'>{{ post.date | date:'%a %d %b %Y' }}</small>
     <a href="{{ post.url }}">
       <h3>{{ post.title }}</h3>
     </a>

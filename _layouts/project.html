@@ -2,10 +2,7 @@
 layout: default
 root: true
 ---
-
-{% capture time %}{{ content | reading_time }}{% endcapture %}
-
-<small style="float:right; margin-top:1px;"><i>{{ time }}</i> &sdot; {{ page.date | date:'%a %d %b %Y' }}</small>
+<small style="float:right; margin-top:1px;">{{ page.date | date:'%a %d %b %Y' }}</small>
 <a href="{{ page.url }}">
   <h3>{{ page.title }}</h3>
 </a>
