@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: BigBlueButton HTML5 Client
 category: projects
 tags: sidebar
