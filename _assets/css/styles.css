@@ -9,8 +9,9 @@ body {
   padding:15px 10px 0 10px; /* top right bottom left */
   max-width: 900px;
   color:#444;
-  font:11pt/1.5 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font:18px/1.5 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.7em;
+  font-weight: 400;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 
 .header-links {
   position:fixed;
-  top: 11px;
+  top: 8px;
   float: right;
 }
 
@@ -30,19 +31,20 @@ header {
 .header-links li a {
   color: #444;
   text-transform: uppercase;
-  font-family: 'Antic Slab';
-  font-weight: bold;
-  font-size: 12pt;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14pt;
 }
 
 .header-name {
   position:fixed;
-  top: 11px;
+  top: 8px;
   color: #444;
   text-transform: uppercase;
   margin-left: 10px;
-  font-family: 'Antic Slab';
-  font-weight: bold;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size:14pt;
 }
 
 .header-links li {
@@ -61,13 +63,13 @@ header {
 .name {
   text-align: center;
   font-size: 72pt;
-  font-family: 'Antic Slab', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
   line-height: 1.2;
 }
 
 .timeanddate {
   float:right;
-  margin-top: -2px;
+  margin-top: -4px;
 }
 
 .postinfo {
@@ -77,6 +79,7 @@ header {
 }
 
 .links {
+  font-family: 'Open Sans';
   text-align: center;
 }
 
@@ -133,7 +136,7 @@ footer p {
 }
 
 h3 {
-  font-family: 'Antic Slab';
+  font-family: 'Open Sans';
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -280,15 +283,15 @@ strong {
   max-width: 900px;
 }
 
-.expand-icon a {
-  color:#444;
-}
-
 .expand-icon {
   position:fixed;
-  top:11px;
+  top: 8px;
   right:18px;
   float:right;
+}
+
+.expand-icon a {
+  color:#444;
 }
 
 .phone {
@@ -297,7 +300,7 @@ strong {
 
 .floatcontainer {
   float:right;
-  width: 270px;
+  width: 320px;
 }
 
 img {
@@ -358,7 +361,7 @@ img[alt=PhotoGPSThumb] {
   -khtml-border-radius: 10px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
 
   .phone {
     display: inline-block;
