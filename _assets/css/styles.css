@@ -159,13 +159,6 @@ img {
   color: #aaa;
 }
 
-.name {
-  text-align: center;
-  font-size: 72pt;
-  font-family: 'Nixie One', serif;
-  line-height: 1.2;
-}
-
 .timeanddate {
   float:right;
   margin-top: -4px;
